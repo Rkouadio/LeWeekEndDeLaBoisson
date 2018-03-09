@@ -13,7 +13,7 @@
             </ol>
             -->
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/slide1.jpg)">
+                <div class="item active" style="background-image: url(images/slider/web_slide1.png)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
@@ -52,9 +52,9 @@
 
                 <div class="item">
                     <video id="video_background" preload="auto" autoplay loop="loop" muted="muted" controls>
-                        <source src="videos/splash.webm" type="video/webm">
+                       <!-- <source src="videos/splash.webm" type="video/webm"> -->
                         <source src="videos/splash.mp4" type="video/mp4">
-                        <source src="videos/splash.ogv" type="video/ogg">
+                      <!--  <source src="videos/splash.ogv" type="video/ogg"> -->
                         Video not supported
                     </video>
 
@@ -109,7 +109,7 @@
                                     <h3>Exposition Vente</h3>
 
                                     <p>
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                        Des stands a votre disposition, decouvrir les nouveaux produit de nos brasseries...
                                     </p>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@
                                     <h3>Jeux-Concours</h3>
 
                                     <p>
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                       Inscrivez-vous, participez a nos jeux et repartez avec de nombreux lots...
                                     </p>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                                     <h3>Animations Culturelles</h3>
 
                                     <p>
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                        Des prestations culturelles attrayantes pour egayer pendant trois jours
                                     </p>
                                 </div>
                             </div>
@@ -141,15 +141,15 @@
 
                                     <h3>Concert & Maquis Geant</h3>
 
-                                    <p>
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text.
-                                    </p>
-                                </div>
-                            </div>
-                         <!--
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="service-box service-fold">
-                                    <i class="hippo-icon-paper-plane"></i>
+                            <p>
+                                Concert avec des artistes de renom dans un concept d'ambiance bon vivre à l'ivoirienne.
+                            </p>
+                        </div>
+                    </div>
+                    <!--
+                       <div class="col-md-3 col-sm-6 col-xs-12">
+                           <div class="service-box service-fold">
+                               <i class="hippo-icon-paper-plane"></i>
 
                                     <h3>UI/UX Design</h3>
 
@@ -218,7 +218,7 @@
 
                                                     <div class="portfolio-item-description">
                                                         <div>
-                                                            <a data-linktype="modal" data-modalclass="portfolio-style"
+                                                            <a
                                                                href="portfolio1.html"
                                                                class="fa fa-info rounded"></a>
 
@@ -409,50 +409,35 @@
 
                             <div class="row contents">
                                 <div class="col-md-6">
-                                    <p> On the other hand, we denounce with righteous indignation and dislike men who are
-                                        so
-                                        beguiled and demoralized by the charms of pleasure of the moment, so blinded by
-                                        desire,
-                                        that they cannot foresee the pain and trouble that are bound to ensue; and equal
-                                        blame
-                                        belongs to those who fail in their duty through weakness of will, which is the same
-                                        as
-                                        saying through shrinking from toil and pain. </p>
+                                    <p> Le WEB, Week-end de la Boisson est une idée original en vue de créer une plate forme d'echange,
+                                    de rejouissance et de decouvertes. Elle permettra de créer un cadre de rencontre entre les professionnels
+                                        de la boisson.
+                                    </p>
 
-                                    <p> These cases are perfectly simple and easy to distinguish. In a free hour, when our
-                                        power
-                                        of choice is untrammelled and when nothing prevents our being able to do what we
-                                        like
-                                        best,</p>
+                                    <p> Elle a pour objectif de faire connaitre les specifités des professionnels de la boisson. Aussi
+                                    de valoriser les potentialités de la boisson sur le plan commercial et industriel</p>
 
-                                    <p> every pleasure is to be welcomed and every pain avoided. But in certain
-                                        circumstances
-                                        and owing to the claims of duty or the obligations of business it will frequently
-                                        occur
-                                        that pleasures have to be repudiated and annoyances accepted. The wise man
-                                        therefore
-                                        always holds in these matters to this principle of selection: he rejects pleasures
-                                        to
-                                        secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+                                    <p> Le Week-end de la Boisson- WEB, permettra de reunir la Population Ivoirienne,
+                                    la Dispora ivoirienne, les touristes, les Operateurs Economiques, le monde de la culture et du Showbiz  et
+                                        les Arts.
+                                    </p>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3>Our Skills</h3>
-
-                                    <p> every pleasure is to be welcomed and every pain avoided. But in certain
-                                        circumstances
-                                        and
-                                        owing to the claims of duty or the obligations of business it will frequently occur
-                                        that
-                                        pleasures have to be repudiated</p>
+                                    <h3>Communication autour de l'Evenement</h3>
+                                    </br>
+                                    <p> La reussite du WEB 2018, repose sur une communicatiuon de proximité, en vue d'interesser
+                                    chaque ivoirien(ne) & toute la diapora a cet evenement unique en son genre. car elle sera le lieu de rencontre
+                                        entre Consommateurs et Brasseries !
+                                    </p>
 
                                     <div class="progress-bars">
-                                        <div class="skill-progress" data-skill="75%">CSS</div>
-                                        <div class="skill-progress" data-skill="60%">HTML</div>
-                                        <div class="skill-progress" data-skill="90%">PHP</div>
-                                        <div class="skill-progress" data-skill="55%">Photoshop</div>
+                                        <div class="skill-progress" data-skill="75%">TV</div>
+                                        <div class="skill-progress" data-skill="60%">PRESSE</div>
+                                        <div class="skill-progress" data-skill="90%">INTERNET</div>
+                                        <div class="skill-progress" data-skill="55%">AFFICHAGE</div>
                                     </div>
                                     <div class="connect">
-                                        <h3>Connect with us</h3>
+                                        <h3>Restez Connecter au WEB</h3>
 
                                         <div class="social-shares">
                                             <ul>
@@ -1206,7 +1191,6 @@
                                         <ul>
                                             <li class="first">
                                                 <p><i class="fa fa-map-marker fa-2"></i>Week-end De La Boisson</p>
-
                                                 <p> Palais de la Culture d'Abidjan, Treichville.</p>
                                             </li>
                                             <li class="second">
@@ -1216,7 +1200,6 @@
                                             </li>
                                             <li class="third">
                                                 <p><i class="fa fa-clock-o fa-2"></i> 13-14 & 15 Juillet 2018</p>
-
                                                 <p>10h - 00h</p>
                                             </li>
                                         </ul>
@@ -1243,7 +1226,7 @@
                                                     <textarea class="form-control" placeholder="Message"></textarea>
                                                 </div>
                                             </div>
-                                            <div class="row">
+                                            <div  class="row">
                                                 <div class="col-md-12">
                                                     <input type="submit" class="readmore send-button"
                                                            value="Send Message">

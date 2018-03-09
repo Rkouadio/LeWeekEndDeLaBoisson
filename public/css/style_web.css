@@ -21,7 +21,17 @@
  *---------------------------*/
 /*
 =============================================== */
+#services-wrapper:before {
+    border-left-color : #e8432a ;
+}
 
+.service-box {
+    background          : -webkit-linear-gradient(right, #ff8c00 0%, #ff8c00 100%), -webkit-linear-gradient(right, #ff8c00 0%, #ff8c00 100%);
+    background          : -moz-linear-gradient(right, #ff8c00 0%, #ff8c00 100%), -moz-linear-gradient(right, #ff8c00 0%, #ff8c00 100%);
+    background          : -o-linear-gradient(right, #ff8c00 0%, #ff8c00 100%), -o-linear-gradient(right, #ff8c00 0%, #ff8c00 100%);
+    background          : -ms-linear-gradient(right, #ff8c00 0%, #ff8c00 100%), -ms-linear-gradient(right, #ff8c00 0%, #ff8c00 100%);
+    background          : linear-gradient(right, #ff8c00 0%, #ff8c00 100%), linear-gradient(right, #ff8c00 0%, #ff8c00 100%);
+}
 #team-wrapper:before {
     border-right-color : #32d996;
 }
@@ -39,10 +49,17 @@
 #monrow{
     margin-left: 25%;
     margin-right: 25%;
-    position: center;
     width: 100%;
     height: 100%;
 }
+
+.service-box h3 {
+    color: #000;
+}
+.service-box h3:hover {
+    color: #FFFFFF;
+}
+
 .btn-sq-lg {
     width: 150px !important;
     height: 150px !important;
