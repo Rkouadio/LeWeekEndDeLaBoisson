@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Publication extends Model
+class typeInscription extends Model
 {
     protected $fillable = [
-      'intitule', 'description', 'statut', 'nom', 'motif'
+            'intitule', 'description'
     ];
 }

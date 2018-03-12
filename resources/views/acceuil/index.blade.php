@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-xs-6">
                     <div class="copyright">
-                        <p>Copyright &copy; 2018 Le WEB/ Design by <a href="https://uicookies.com">Bao-Technologies- Dev_Team</a>
+                        <p>Copyright &copy; 2018 Le WEB/ Design by <a href="#">Bao-Technologies- Dev_Team</a>
                     </div>
                 </div>
             </div>

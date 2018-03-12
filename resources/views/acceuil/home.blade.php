@@ -16,7 +16,7 @@
                 <div class="item active" style="background-image: url(images/slider/web_slide1.png)">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-12"s>
                                 <div class="carousel-content centered">
                                     <h2 class="animation animated-item-1">Le Week-End <span>De la Boisson</span></h2>
 
@@ -64,9 +64,9 @@
                             <div class="col-sm-12">
                                 <div class="carousel-content centered">
 
-                                    <h2 class="animation animated-item-1"><span>Animations</span></h2>
+                                    <h2 class="animation animated-item-1"><span></span></h2>
 
-                                    <h2 class="animation animated-item-2">Concerts, Ateliers Culinaire, Rencontres</h2>
+                                    <h2 class="animation animated-item-2"></h2>
 
                                     <br>
                                     <span class="content-nav">
@@ -491,7 +491,7 @@
                                         </a>
                                     </p>
                                 </div>
-
+                        <!--  Team Section-->
                                       <!--
                                         <ul id="team-items">
                                             <li class="team-member">
@@ -1186,7 +1186,9 @@
 
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div id="map-canvas"></div>
+                                    <!-- Code google Maps-->
+                                    <div id="map-canvas">
+                                    </div>
                                     <div class="contact-info">
                                         <ul>
                                             <li class="first">

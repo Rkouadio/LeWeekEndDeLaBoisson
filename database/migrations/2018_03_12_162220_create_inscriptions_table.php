@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateEventMenTable extends Migration
+class CreateInscriptionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,23 @@ class CreateEventMenTable extends Migration
      */
     public function up()
     {
-        Schema::create('event_men', function (Blueprint $table) {
+        Schema::create('inscriptions', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nom');
             $table->string('prenoms');
             $table->string('email');
             $table->string('contact');
-            $table->string('decision');
+            $table->string('adresse');
+            $table->string('motivation');
+            /**
+             * indexation sur la table type_inscription
+             */
+            $table->unsignedInteger('type_inscriptions');
+            $table->foreign('type_inscriptions')
+                ->references('id')->on('type_inscriptions')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
+
             $table->timestamps();
         });
     }
@@ -31,6 +41,7 @@ class CreateEventMenTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('event_men');
+        Schema::dropIfExists('inscriptions');
     }
 }
+
