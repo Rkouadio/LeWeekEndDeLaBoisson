@@ -491,6 +491,11 @@
                                         </a>
                                     </p>
                                 </div>
+                                <div class="row">
+                                    <p>
+                                        BGGVVV
+                                    </p>
+                                </div>
                         <!--  Team Section-->
                                       <!--
                                         <ul id="team-items">
@@ -882,17 +887,14 @@
             </div>
         </div>
         <!-- /#client -->
-
-    <!--    <div id="blog-wrapper">
+<!--
+       <div id="blog-wrapper">
             <div id="blog">
                 <div class="inner-wrapper">
                     <div class="row">
                         <div class="container">
                             <h2>
-                                Check out our latest
-                                <span>
-              Blog
-            </span>
+                                Check out our latest  <span>Blog</span>
                             </h2>
 
                             <div class="row">
@@ -1017,28 +1019,24 @@
                                         </li>
                                     </ul>
                                     <div class="blog-directions">
-                <span class="prev-items rounded">
-                  <i class="fa fa-angle-left">
-                  </i>
-                </span>
-                                        <span class="next-items rounded">
-                  <i class="fa fa-angle-right">
-                  </i>
-                </span>
-                                    </div>
+                                            <span class="prev-items rounded">
+                                              <i class="fa fa-angle-left"> </i>
+                                            </span>
+                                            <span class="next-items rounded">
+                                              <i class="fa fa-angle-right">
+                                              </i>
+                                            </span>
+                                   </div>
                                 </div>
+
                                 <div class="col-md-6">
                                     <div class="tab-content blog-post-descriptions">
                                         <div class="tab-pane active has-thumbnail" id="a">
                                             <div class="entry-title">
                                                 <div class="blog-header-wrapper">
                                                     <div class="blog-date">
-                        <span class="blog-date-day">
-                          07
-                        </span>
-                                                        <span class="blog-date-other">
-                          Nov, 2013
-                        </span>
+                                                                <span class="blog-date-day">07 </span>
+                                                                        <span class="blog-date-other"> Nov, 2013 </span>
                                                     </div>
                                                     <div class="blog-title">
                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -1187,8 +1185,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <!-- Code google Maps-->
-                                    <div id="map-canvas">
-                                    </div>
+                                    <!-- <div id="map-canvas">
+                                    </div> -->
                                     <div class="contact-info">
                                         <ul>
                                             <li class="first">

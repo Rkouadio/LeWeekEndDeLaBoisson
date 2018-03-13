@@ -13,37 +13,142 @@
     height                  : 100%;
 }
 
-/*Directions vers les autres pages d'Inscription
-================================================ */
-
 /* --------------------------
  * Pricing Table
  *---------------------------*/
 /*
 =============================================== */
+/* --------------------------
+ * Modifications des couleurs de base
+ *---------------------------*/
+/*
+=============================================== */
+
+/**
+**** Programme
+ */
+
+#services {
+    background          : -webkit-linear-gradient(left, #ff8c00 0%, #ff8c00 100%), -webkit-linear-gradient(left, #ff8c00 0%, #ff8c00 100%);
+    background          : -moz-linear-gradient(left, #ff8c00 0%, #ff8c00 100%), -moz-linear-gradient(left, #ff8c00 0%, #ff8c00 100%);
+    background          : -o-linear-gradient(left, #ff8c00 0%, #ff8c00 100%), -o-linear-gradient(left, #ff8c00 0%, #ff8c00 100%);
+    background          : -ms-linear-gradient(left, #ff8c00 0%, #ff8c00 100%), -ms-linear-gradient(left, #ff8c00 0%, #ff8c00 100%);
+    background          : linear-gradient(left, #ff8c00 0%, #ff8c00 100%), linear-gradient(left, #ff8c00 0%, #ff8c00 100%); /* Chrome10+,Safari5.1+ */
+
+}
 #services-wrapper:before {
-    border-left-color : #e8432a ;
+    border-left-color : #FFFFFF ;
 }
 
 .service-box {
-    background          : -webkit-linear-gradient(right, #ff8c00 0%, #ff8c00 100%), -webkit-linear-gradient(right, #ff8c00 0%, #ff8c00 100%);
-    background          : -moz-linear-gradient(right, #ff8c00 0%, #ff8c00 100%), -moz-linear-gradient(right, #ff8c00 0%, #ff8c00 100%);
-    background          : -o-linear-gradient(right, #ff8c00 0%, #ff8c00 100%), -o-linear-gradient(right, #ff8c00 0%, #ff8c00 100%);
-    background          : -ms-linear-gradient(right, #ff8c00 0%, #ff8c00 100%), -ms-linear-gradient(right, #ff8c00 0%, #ff8c00 100%);
-    background          : linear-gradient(right, #ff8c00 0%, #ff8c00 100%), linear-gradient(right, #ff8c00 0%, #ff8c00 100%);
+    background          : -webkit-linear-gradient(right, #35362c 0%, #35362c 100%), -webkit-linear-gradient(right, #35362c 0%, #35362c 100%);
+    background          : -moz-linear-gradient(right, #35362c 0%, #35362c 100%), -moz-linear-gradient(right, #35362c 0%, #35362c 100%);
+    background          : -o-linear-gradient(right, #35362c 0%, #35362c 100%), -o-linear-gradient(right, #35362c 0%, #35362c 100%);
+    background          : -ms-linear-gradient(right, #35362c 0%, #35362c 100%), -ms-linear-gradient(right, #35362c 0%, #35362c 100%);
+    background          : linear-gradient(right, #35362c 0%, #35362c 100%), linear-gradient(right, #35362c 0%, #35362c 100%);
 }
-#team-wrapper:before {
-    border-right-color : #32d996;
+.service-box h3 {
+    color: #ff8c00;
+}
+.service-box h3:hover {
+    color: #ff8c00;
 }
 
+.service-box p {
+    color: #FFFFFF;
+}
+
+#team-wrapper:before {
+    border-right-color : #face2f;
+}
+
+/**
+**** Inscription
+ */
 #team {
     background          : -webkit-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%), -webkit-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%);
     background          : -moz-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%), -moz-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%);
     background          : -o-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%), -o-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%);
     background          : -ms-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%), -ms-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%);
     background          : linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%), linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%); /* Chrome10+,Safari5.1+ */
+}
+
+/**
+**** Phototheque
+ */
+
+#portfolio-wrapper:before {
+    border-right-color : #face2f;
+}
+
+#portfolio {
+    background          : -webkit-linear-gradient(right, #face2f 0%, #face2f 100%), -webkit-linear-gradient(right, #face2f 0%, #face2f 100%);
+    background          : -moz-linear-gradient(right, #face2f 0%, #face2f 100%), -moz-linear-gradient(right, #face2f 0%, #face2f 100%);
+    background          : -o-linear-gradient(right, #face2f 0%, #face2f 100%), -o-linear-gradient(right, #face2f 0%, #face2f 100%);
+    background          : -ms-linear-gradient(right, #face2f 0%, #face2f 100%), -ms-linear-gradient(right, #face2f 0%, #face2f 100%);
+    background          : linear-gradient(right, #face2f 0%, #face2f 100%), linear-gradient(right, #face2f 0%, #face2f 100%); /* Chrome10+,Safari5.1+ */
     background-position : 100px 100%, 100% 100px;
     background-repeat   : no-repeat;
+}
+/**
+****LE WEB
+ */
+#aboutus-wrapper:before {
+    border-left-color : #ff8c00;
+}
+
+#aboutus {
+    background          : -webkit-linear-gradient(left, #ff8c00 0%, #ff8c00 100%), -webkit-linear-gradient(left, #ff8c00 0%, #ff8c00 100%);
+    background          : -moz-linear-gradient(left, #ff8c00 0%, #ff8c00 100%), -moz-linear-gradient(left, #ff8c00 0%, #ff8c00 100%);
+    background          : -o-linear-gradient(left, #ff8c00 0%, #ff8c00 100%), -o-linear-gradient(left, #ff8c00 0%, #ff8c00 100%);
+    background          : -ms-linear-gradient(left, #ff8c00 0%, #ff8c00 100%), -ms-linear-gradient(left, #ff8c00 0%, #ff8c00 100%);
+    background          : linear-gradient(left, #ff8c00 0%, #ff8c00 100%), linear-gradient(left, #ff8c00 0%, #ff8c00 100%); /* Chrome10+,Safari5.1+ */
+}
+
+#aboutus h2 {
+    color : #000;
+}
+#aboutus h3 {
+    color : #000;
+}
+#aboutus p {
+    color: #800000;
+    font-weight: bold;
+}
+
+
+/**
+****Partenaires
+ */
+#client-wrapper:before {
+    border-left-color : #ffe175;
+}
+
+#client {
+    background          : -webkit-linear-gradient(left, #face2f 0%, #face2f 100%), -webkit-linear-gradient(left, #face2f 0%, #face2f 100%);
+    background          : -moz-linear-gradient(left, #face2f 0%, #face2f 100%), -moz-linear-gradient(left, #face2f 0%, #face2f 100%);
+    background          : -o-linear-gradient(left, #face2f 0%, #face2f 100%), -o-linear-gradient(left, #face2f 0%, #face2f 100%);
+    background          : -ms-linear-gradient(left, #face2f 0%, #face2f 100%), -ms-linear-gradient(left, #face2f 0%, #face2f 100%);
+    background          : linear-gradient(left, #face2f 0%, #face2f 100%), linear-gradient(left, #face2f 0%, #face2f 100%); /* Chrome10+,Safari5.1+ */
+}
+
+/**
+****Contact
+ */
+#contact-wrapper:before {
+    border-left-color : #FFFFFF;
+}
+
+#contact {
+    background          : -webkit-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%), -webkit-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%);
+    background          : -moz-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%), -moz-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%);
+    background          : -o-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%), -o-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%);
+    background          : -ms-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%), -ms-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%);
+    background          : linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%), linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%); /* Chrome10+,Safari5.1+ */
+}
+
+#contact .container > h2 {
+    color : #24282B;
 }
 
 #monrow{
@@ -51,13 +156,6 @@
     margin-right: 25%;
     width: 100%;
     height: 100%;
-}
-
-.service-box h3 {
-    color: #000;
-}
-.service-box h3:hover {
-    color: #FFFFFF;
 }
 
 .btn-sq-lg {
