@@ -9,7 +9,24 @@
 
 define('LARAVEL_START', microtime(true));
 
+include("geoipcity.inc");
+
+include("geoipregionvars.php");
+
+
+
+$gi = geoip_open(realpath("GeoLiteCity.dat"),GEOIP_STANDARD);
+
+//echo $_SERVER['REMOTE_ADDR'];
+
+//$record = geoip_record_by_addr($gi,$_SERVER['REMOTE_ADDR']);
+$record = geoip_record_by_addr($gi,'160.120.149.135');
+define('ViewCount', $record);
+//var_dump($record);
+geoip_close($gi);
+
 /*
+ *
 |--------------------------------------------------------------------------
 | Register The Auto Loader
 |--------------------------------------------------------------------------
