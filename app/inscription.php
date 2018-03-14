@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class inscription extends Model
 {
     protected $fillable = [
-       'nom', 'prenoms', 'email', 'contact', 'adresse', 'motivation', 'type_inscriptions'
+       'nom', 'prenoms', 'email', 'contact', 'adresse', 'motivation', 'type_inscriptions', 'choix'
     ];
 
     public function type_inscriptions()

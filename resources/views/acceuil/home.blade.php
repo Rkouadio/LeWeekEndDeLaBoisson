@@ -473,19 +473,19 @@
 
                                 <div class="col-lg-12">
                                     <p>
-                                        <a href="#" class="btn btn-sq-lg btn-primary">
+                                        <a href="{{route('inscriptionJeux')}}" class="btn btn-sq-lg btn-primary">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                           Incrivez-vous <br>au jeux concours
                                         </a>
-                                        <a href="#" class="btn btn-sq-lg btn-success">
+                                        <a href="{{route('inscriptionVisiteurs')}}" class="btn btn-sq-lg btn-success">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Comme Visiteurs
                                         </a>
-                                        <a href="#" class="btn btn-sq-lg btn-info">
+                                        <a href="{{route('inscriptionPartenaires')}}" class="btn btn-sq-lg btn-info">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Organe de Presse
                                         </a>
-                                        <a href="#" class="btn btn-sq-lg btn-warning">
+                                        <a href="{{route('inscriptionPresse')}}" class="btn btn-sq-lg btn-warning">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Pour etre Partenaire
                                         </a>

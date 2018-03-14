@@ -21,14 +21,9 @@ class CreateInscriptionsTable extends Migration
             $table->string('contact');
             $table->string('adresse');
             $table->string('motivation');
-            /**
-             * indexation sur la table type_inscription
-             */
-            $table->unsignedInteger('type_inscriptions');
-            $table->foreign('type_inscriptions')
-                ->references('id')->on('type_inscriptions')
-                ->onUpdate('cascade')
-                ->onDelete('cascade');
+            $table->string('choix');
+            $table->string('type_inscriptions');
+
 
             $table->timestamps();
         });
