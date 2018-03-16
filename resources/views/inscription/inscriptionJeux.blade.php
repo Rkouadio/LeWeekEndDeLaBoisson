@@ -1,6 +1,22 @@
 @extends('inscription.inscriptionLayout')
 @section('InscriptionContent')
 
+    @if(Session::has('SuccesRapport'))
+
+        <div class="alert alert-success">
+            {{Session::get('SuccesRapport')}} <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
+        </div>
+    @endif
+
+    @if(Session::has('EchecRapport'))
+
+        <div class="alert alert-warning">
+
+            {{Session::get('EchecRapport')}}<strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
+
+        </div>
+    @endif
+
     <form class="contact100-form validate-form" action="{{route('divertissement')}}" method="post" enctype="multipart/form-data">
         {{ csrf_field() }}
 				<span class="contact100-form-title">

@@ -51,9 +51,9 @@
     </div>
   <div class="container">
       <div class="center">
-          <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-danger btn-lg">PLus d'info</button>
+          <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-danger btn-lg"><span>Plus d'info</span></button>
 
-          <a href="{{route('home')}}"> <button class="btn btn-success btn-lg">Retournez a l'Acueill</button></a>
+          <a href="{{route('home')}}"> <button class="btn btn-success btn-lg"><span>Retournez a l'Acueill</span></button></a>
       </div>
 
       <!-- line modal -->

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\inscription;
 use App\divertissement;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class InscriptionController extends Controller
 {
@@ -77,7 +78,9 @@ class InscriptionController extends Controller
             'choix'=>$choix
           ]);
 
-       redirect('/');
+
+        Session::flash('SuccesRapport','Votre inscription a ete pris en compte');
+        return redirect()->route('inscriptionJeux');
     }
 
     public function store(Request $request)
