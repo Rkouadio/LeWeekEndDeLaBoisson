@@ -1,7 +1,7 @@
 @extends('inscription.inscriptionLayout')
 @section('InscriptionContent')
 
-    <form class="contact100-form validate-form" action="{{route('registerJeux')}}" method="post" enctype="multipart/form-data>
+    <form class="contact100-form validate-form" action="{{route('divertissement')}}" method="post" enctype="multipart/form-data">
         {{ csrf_field() }}
 				<span class="contact100-form-title">
 					Incrivez-vous aux Jeux-Concours

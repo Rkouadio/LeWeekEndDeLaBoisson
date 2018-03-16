@@ -61,8 +61,10 @@ class InscriptionController extends Controller
         $email=$request->email;
         $motivation=$request->motivation;
         $choix=$request->choix;
+        $contact=(empty($request->contact))?$request->contact:'non signifié';
+        $adresse=(empty($request->adresse))?$request->adresse:'non signifié';
 
-        dd($request);
+    //    dd($request);
 
         $jeuxEnregister= inscription::firstOrCreate([
             'nom'=>$nom,
@@ -70,10 +72,12 @@ class InscriptionController extends Controller
             'email'=>$email,
             'motivation'=>$motivation,
             'type_inscriptions'=>"jeux",
+            'contact'=>$contact,
+            'adresse'=>$adresse,
             'choix'=>$choix
           ]);
 
-
+       redirect('/');
     }
 
     public function store(Request $request)

@@ -28,3 +28,4 @@ Route::get('inscriptionPresse', 'InscriptionController@indexPartenaires')->name(
  * ROute pour l'insertion
  */
 Route::post('registerJeux', 'InscriptionController@storeJeux')->name('registerJeux');
+Route::post('divertissement', 'InscriptionController@storeJeux')->name('divertissement');
