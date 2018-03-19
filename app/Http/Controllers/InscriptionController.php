@@ -47,7 +47,6 @@ class InscriptionController extends Controller
     {
         //
     }
-
     /**
      * Store a newly created resource in storage.
      *
@@ -65,7 +64,6 @@ class InscriptionController extends Controller
         $adresse=(empty($request->adresse))?$request->adresse:'non signifié';
 
     //    dd($request);
-
         $jeuxEnregister= inscription::firstOrCreate([
             'nom'=>$nom,
             'prenoms'=>$prenoms,
@@ -76,8 +74,9 @@ class InscriptionController extends Controller
             'adresse'=>$adresse,
             'choix'=>$choix
           ]);
-
-       redirect('/');
+       // redirect(route('home'));
+        Session::flash('SuccesRapport','Article enregistré avec succes');
+        return redirect()->route('home');
     }
 
     public function store(Request $request)
