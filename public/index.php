@@ -21,7 +21,7 @@ $gi = geoip_open(realpath("GeoLiteCity.dat"),GEOIP_STANDARD);
 
 //$record = geoip_record_by_addr($gi,$_SERVER['REMOTE_ADDR']);
 $record = geoip_record_by_addr($gi,'160.120.149.135');
-define('ViewCount', $record);
+//define('ViewCount', $record);
 //var_dump($record);
 geoip_close($gi);
 
