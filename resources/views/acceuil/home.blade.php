@@ -13,7 +13,7 @@
             </ol>
             -->
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/web_slide1.png)">
+                <div class="item active" style="background-image: url(images/slider/web_slide2.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12"s>

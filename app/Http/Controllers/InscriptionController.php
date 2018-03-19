@@ -26,7 +26,8 @@ class InscriptionController extends Controller
     }
     public function indexVisiteurs()
     {
-        return view ('inscription.inscriptionVisiteurs');
+        $visiteurs = divertissement::whereCategorie('visiteurs')->get();
+        return view ('inscription.inscriptionVisiteurs', compact('visiteurs'));
     }
     public function indexPartenaires()
     {
@@ -54,6 +55,7 @@ class InscriptionController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
+     * Methode enregistrant une inscription == JEUX == VISITEURS == PRESSE == PARTENAIRES
      */
     public function storeJeux(Request $request)
     {
@@ -67,7 +69,7 @@ class InscriptionController extends Controller
 
     //    dd($request);
 
-        $jeuxEnregister= inscription::firstOrCreate([
+        $visiteursEnregister= inscription::firstOrCreate([
             'nom'=>$nom,
             'prenoms'=>$prenoms,
             'email'=>$email,
@@ -81,6 +83,34 @@ class InscriptionController extends Controller
 
         Session::flash('SuccesRapport','Votre inscription a ete pris en compte');
         return redirect()->route('inscriptionJeux');
+    }
+
+    public function storeVisiteurs(Request $request)
+    {
+        $nom=$request->nom;
+        $prenoms=$request->prenoms;
+        $email=$request->email;
+        $motivation=$request->motivation;
+        $choix=$request->choix;
+        $contact=(!empty($request->contact))?$request->contact:'non signifié';
+        $adresse=(!empty($request->adresse))?$request->adresse:'non signifié';
+
+        //    dd($request);
+
+        $jeuxEnregister= inscription::firstOrCreate([
+            'nom'=>$nom,
+            'prenoms'=>$prenoms,
+            'email'=>$email,
+            'motivation'=>$motivation,
+            'type_inscriptions'=>"visiteurs",
+            'contact'=>$contact,
+            'adresse'=>$adresse,
+            'choix'=>$choix
+        ]);
+
+
+        Session::flash('SuccesRapport','Votre inscription a ete pris en compte');
+        return redirect()->route('inscriptionVisiteurs');
     }
 
     public function store(Request $request)

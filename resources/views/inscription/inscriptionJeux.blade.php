@@ -23,26 +23,26 @@
 					Incrivez-vous aux Jeux-Concours
 				</span>
 
-        <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+        <div class="wrap-input100 validate-input bg1" data-validate="Veuillez Entrer votre Nom">
             <span class="label-input100">Nom *</span>
-            <input class="input100" type="text" name="nom" placeholder="Enter Your Name">
+            <input class="input100" type="text" name="nom" placeholder="Entrez Votre Nom">
         </div>
-        <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+        <div class="wrap-input100 validate-input bg1" data-validate="Veuillez Entrer votre Prenoms">
             <span class="label-input100">Prenoms</span>
-            <input class="input100" type="text" name="prenoms" placeholder="Enter Your Name">
+            <input class="input100" type="text" name="prenoms" placeholder="Entrez Votre Prenoms">
         </div>
 
-        <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Email (e@a.x)">
+        <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Entrez Votre Email (e@a.com)">
             <span class="label-input100">Email *</span>
-            <input class="input100" type="text" name="email" placeholder="Enter Your Email ">
+            <input class="input100" type="text" name="email" placeholder="Entrez Votre Email ">
         </div>
         <div class="wrap-input100 bg1 rs1-wrap-input100">
             <span class="label-input100">Contact</span>
-            <input class="input100" type="text" name="contact" placeholder="Enter Number Phone">
+            <input class="input100" type="text" name="contact" placeholder="Entrez Votre Contact">
         </div>
         <div class="wrap-input100 bg1 rs1-wrap-input100">
             <span class="label-input100">Addresse</span>
-            <input class="input100" type="text" name="adresse" placeholder="Enter Number Phone">
+            <input class="input100" type="text" name="adresse" placeholder="Entrez Votre Addresse">
         </div>
 
 
@@ -62,15 +62,15 @@
 
         </div>
 
-        <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
+        <div class="wrap-input100 validate-input bg0 rs1-alert-validate" >
             <span class="label-input100">Motivation</span>
-            <textarea class="input100" name="motivation" placeholder="Your message here..."></textarea>
+            <textarea class="input100" name="motivation" placeholder="Votre Motivation..."></textarea>
         </div>
 
         <div class="container-contact100-form-btn">
             <button class="contact100-form-btn">
 						<span>
-							Submit
+							Enregistrer
 							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
 						</span>
             </button>
