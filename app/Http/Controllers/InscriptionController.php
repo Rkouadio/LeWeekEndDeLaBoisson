@@ -68,7 +68,6 @@ class InscriptionController extends Controller
         $adresse=(empty($request->adresse))?$request->adresse:'non signifié';
 
     //    dd($request);
-
         $visiteursEnregister= inscription::firstOrCreate([
             'nom'=>$nom,
             'prenoms'=>$prenoms,

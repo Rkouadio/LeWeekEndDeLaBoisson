@@ -31,3 +31,7 @@ Route::get('inscriptionPresse', 'InscriptionController@indexPartenaires')->name(
 Route::post('registerJeux', 'InscriptionController@storeJeux')->name('registerJeux');
 Route::post('divertissement', 'InscriptionController@storeJeux')->name('divertissement');
 Route::post('visiteurs', 'InscriptionController@StoreVisiteurs')->name('visiteurs');
+/**
+ * route pour les contacts
+ */
+Route::post('messageUser', 'contactUsController@Store')->name('messageUser');
