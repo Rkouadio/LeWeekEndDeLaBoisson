@@ -18,9 +18,9 @@
                         <div class="row">
                             <div class="col-sm-12"s>
                                 <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Le Week-End <span>De la Boisson</span></h2>
+                                    <h2 style="text-transform : lowercase;color:#0b2e13;font-weight: bold"  class="animation animated-item-1">Le Week-End <span style="color:yellow">De la Boisson</span></h2>
 
-                                    <h2 style="text-transform : lowercase" class="animation animated-item-2">Un rendez-vous de toutes les Brasseries</h2>
+                                    <h2 style="text-transform : lowercase;color:#0b2e13;font-weight: bold" class="animation animated-item-2">Un rendez-vous de toutes les Brasseries</h2>
                                     <br>
                                     <span class="content-nav">
 									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
@@ -100,9 +100,23 @@
                 <div class="inner-wrapper">
                     <div class="container">
                         <h2>Trois Jours  <span>de partages , d'echanges...</span></h2>
+                        @if(Session::has('MessageDelivreatedSucces'))
 
+                            <div class="alert alert-success alert-dismissible">
+                                <button class="close" data-dismiss="alert" aria-label="close">&times;</button>
+                                {{Session::get('MessageDelivreatedSucces')}} <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
+                            </div>
+                        @endif
+                        @if(Session::has('MessageDelivreatedEchec'))
+
+                            <div class="alert alert-danger alert-dismissible">
+                                <button class="close" data-dismiss="alert" aria-label="close">&times;</button>
+                                {{Session::get('MessageDelivreatedEchec')}} <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
+                            </div>
+                        @endif
                         <div class="row">
                             <div class="col-md-3 col-sm-6 col-xs-12">
+
                                 <div class="service-box service-fold">
                                     <i class="hippo-icon-diamond"></i>
 
@@ -469,359 +483,40 @@
                                Inscrivez-<span>Vous </span>
                             </h2>
 
-                            <div id="monrow" class="row">
+                            <div  class="row">
 
-                                <div class="col-lg-12">
-                                    <p>
+                                <div class="col-lg-2">
                                         <a href="{{route('inscriptionJeux')}}" class="btn btn-sq-lg btn-primary">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                           Incrivez-vous <br>au jeux concours
                                         </a>
+                                </div>
+                                <div class="col-lg-2">
                                         <a href="{{route('inscriptionVisiteurs')}}" class="btn btn-sq-lg btn-success">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Comme Visiteurs
                                         </a>
+                                </div>
+                                <div class="col-lg-2">
                                         <a href="{{route('inscriptionPartenaires')}}" class="btn btn-sq-lg btn-info">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Organe de Presse
                                         </a>
+                                </div>
+                                <div class="col-lg-2">
                                         <a href="{{route('inscriptionPresse')}}" class="btn btn-sq-lg btn-warning">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Pour etre Partenaire
                                         </a>
-                                    </p>
                                 </div>
-                                <div class="row">
-                                    <p>
-                                        BGGVVV
-                                    </p>
+
+                                <div class="col-lg-4">
+                                    <div class="fb-page" data-href="https://www.facebook.com/WeekEndDeLaBoisson/" data-tabs="timeline" data-width="500" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/WeekEndDeLaBoisson/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WeekEndDeLaBoisson/">Week-end de la boisson</a></blockquote></div>
+
                                 </div>
-                        <!--  Team Section-->
-                                      <!--
-                                        <ul id="team-items">
-                                            <li class="team-member">
-                                                <div>
-                                                    <div class="img-wrapper">
-                                                        <img class="img-responsive" src="images/team/1.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-item-description">
-                                                        <div class="description">
-                                                            <h3>
-                                                                Amili milton
-                                                            </h3>
-                                                            <h4>
-                                                                Founder
-                                                            </h4>
-                                                        </div>
-                                                        <div class="social social-shares">
-                                                            <ul>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-twitter">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-facebook">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-dribbble">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-google-plus">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="team-member">
-                                                <div>
-                                                    <div class="img-wrapper">
-                                                        <img class="img-responsive" src="images/team/2.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-item-description">
-                                                        <div class="description">
-                                                            <h3>
-                                                                Amili milton
-                                                            </h3>
-                                                            <h4>
-                                                                Designer
-                                                            </h4>
-                                                        </div>
-                                                        <div class="social social-shares">
-                                                            <ul>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-twitter">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-facebook">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-dribbble">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-google-plus">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="team-member">
-                                                <div>
-                                                    <div class="img-wrapper">
-                                                        <img class="img-responsive" src="images/team/3.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-item-description">
-                                                        <div class="description">
-                                                            <h3>
-                                                                Amili milton
-                                                            </h3>
-                                                            <h4>
-                                                                Developer
-                                                            </h4>
-                                                        </div>
-                                                        <div class="social social-shares">
-                                                            <ul>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-twitter">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-facebook">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-dribbble">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-google-plus">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                </div>
 
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="team-member">
-                                                <div>
-                                                    <div class="img-wrapper">
-                                                        <img class="img-responsive" src="images/team/4.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-item-description">
-                                                        <div class="description">
-                                                            <h3>
-                                                                Amili milton
-                                                            </h3>
-                                                            <h4>
-                                                                Programmer
-                                                            </h4>
-                                                        </div>
-                                                        <div class="social social-shares">
-                                                            <ul>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-twitter">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-facebook">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-dribbble">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-google-plus">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>s
-                                          <!--
-                                            <li class="team-member">
-                                                <div>
-                                                    <div class="img-wrapper">
-                                                        <img class="img-responsive" src="images/team/2.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-item-description">
-                                                        <div class="description">
-                                                            <h3>
-                                                                Amili milton
-                                                            </h3>
-                                                            <h4>
-                                                                Designer
-                                                            </h4>
-                                                        </div>
-                                                        <div class="social social-shares">
-                                                            <ul>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-twitter">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-facebook">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-dribbble">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-google-plus">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="team-member">
-                                                <div>
-                                                    <div class="img-wrapper">
-                                                        <img class="img-responsive" src="images/team/3.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-item-description">
-                                                        <div class="description">
-                                                            <h3>
-                                                                Amili milton
-                                                            </h3>
-                                                            <h4>
-                                                                Developer
-                                                            </h4>
-                                                        </div>
-                                                        <div class="social social-shares">
-                                                            <ul>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-twitter">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-facebook">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-dribbble">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-google-plus">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
 
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="team-member">
-                                                <div>
-                                                    <div class="img-wrapper">
-                                                        <img class="img-responsive" src="images/team/4.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-item-description">
-                                                        <div class="description">
-                                                            <h3>
-                                                                Amili milton
-                                                            </h3>
-                                                            <h4>
-                                                                Programmer
-                                                            </h4>
-                                                        </div>
-                                                        <div class="social social-shares">
-                                                            <ul>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-twitter">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-facebook">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-dribbble">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i class="fa fa-google-plus">
-                                                                        </i>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-
-                                        </ul>
-                                        <div class="clearfix">
-                                        </div>
-                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -1190,7 +885,7 @@
                                     <div class="contact-info">
                                         <ul>
                                             <li class="first">
-                                                <p><i class="fa fa-map-marker fa-2"></i>Week-end De La Boisson</p>
+                                                <p style="color:orange"><i class="fa fa-map-marker fa-2"></i>Week-end De La Boisson</p>
                                                 <p> Palais de la Culture d'Abidjan, Treichville.</p>
                                             </li>
                                             <li class="second">

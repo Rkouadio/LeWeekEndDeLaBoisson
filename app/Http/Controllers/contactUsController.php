@@ -71,14 +71,15 @@ class contactUsController extends Controller
                 $message->to($data1['email'], $data1['name'])->subject($subject);
             });
 
-          return 'oooooooooooooookkkkk';
+            Session::flash('MessageDelivreatedSucces',"L'operation d'envoi de message a ete un success");
+            return redirect()->route('home');
         }
         catch (\Exception $e)
         {
-            Session::flash('EchecUser','Echec de création du profil.
-                Vérifiez votre connexion Internet.Merci de réessayer
-                           ');
-  return 'zerrrrrrrro';
+            Session::flash('MessageDelivreatedEchec',
+                "Une erreur produite lors de l'envoi du message");
+
+            return redirect()->route('home');
           //  return redirect()->route('acceuiAdmin');
         }
     }
