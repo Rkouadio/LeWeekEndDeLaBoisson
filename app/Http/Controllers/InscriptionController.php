@@ -31,7 +31,8 @@ class InscriptionController extends Controller
     }
     public function indexPartenaires()
     {
-        return view ('inscription.inscriptionPartenaires');
+        $partenaires = divertissement::whereCategorie('partenaires');
+        return view ('inscription.inscriptionPartenaires', compact('partenaires'));
     }
     public function indexPresse()
     {
@@ -110,7 +111,7 @@ class InscriptionController extends Controller
             'contact'=>$contact,
             'organe'=>$organe,
             'adresse'=>$adresse,
-            'choix'=>$choix
+            'choix'=>"visiteurs"
         ]);
 
 
@@ -140,7 +141,7 @@ class InscriptionController extends Controller
             'contact'=>$contact,
             'organe'=>$organe,
             'adresse'=>$adresse,
-            'choix'=>$choix
+            'choix'=>"presse"
         ]);
 
 
@@ -170,7 +171,7 @@ class InscriptionController extends Controller
             'contact'=>$contact,
             'organe'=>$organe,
             'adresse'=>$adresse,
-            'choix'=>$choix
+            'choix'=>"partenaires"
         ]);
 
 

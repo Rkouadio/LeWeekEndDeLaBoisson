@@ -1,6 +1,6 @@
 @extends('inscription.inscriptionLayout')
 @section('InscriptionContent')
-    <form class="contact100-form validate-form" action="" method="post" >
+    <form class="contact100-form validate-form" action="partenaires" method="post" >
 				<span class="contact100-form-title">
 					Devenez Partenaire du WeekEnd de la Boisson
 				</span>
@@ -36,8 +36,6 @@
             <input class="input100" type="text" name="organe" placeholder="Entrez Votre Organe de Presse">
         </div>
 
-
-
         <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
             <span class="label-input100">Motivation</span>
             <textarea class="input100" name="motivation" placeholder="Votre Motivation..."></textarea>
@@ -46,7 +44,7 @@
         <div class="container-contact100-form-btn">
             <button class="contact100-form-btn">
 						<span>
-							Submit
+							Enregister
 							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
 						</span>
             </button>

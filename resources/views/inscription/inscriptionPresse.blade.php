@@ -39,19 +39,6 @@
         </div>
 
 
-        <div class="wrap-input100 input100-select bg1">
-            <span class="label-input100">Presses</span>
-            <div>
-
-                <select class="js-select2" name="choix">
-                    @foreach($presse as $presse)
-                        <option value="{{$presse->intitule}}">{{$presse->intitule}}</option>
-                    @endforeach
-                </select>
-                <div class="dropDownSelect2"></div>
-            </div>
-        </div>
-
         <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
             <span class="label-input100">Motivation</span>
             <textarea class="input100" name="motivation" placeholder="Votre Motivation..."></textarea>

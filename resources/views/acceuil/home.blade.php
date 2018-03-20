@@ -1226,18 +1226,19 @@
                                     <div class="message-box">
                                         <h3>Envoyé un Message</h3>
 
-                                        <form method="post" action="#">
+                                        <form  action="{{route('messageUser')}}" method="post">
+                                            {{ csrf_field() }}
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <input type="text" class="form-control" placeholder="Name">
+                                                    <input type="text" name='nom' class="form-control" placeholder="Name">
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <input type="email" class="form-control" placeholder="Email">
+                                                    <input type="email" name='mail' class="form-control" placeholder="Email">
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-12">
-                                                    <textarea class="form-control" placeholder="Message"></textarea>
+                                                    <textarea class="form-control" name='message' placeholder="Message"></textarea>
                                                 </div>
 
                                             </div>

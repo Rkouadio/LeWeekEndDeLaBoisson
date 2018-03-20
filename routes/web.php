@@ -15,6 +15,7 @@
  * Route Page d'Acceuil
  */
 Route::get('/', 'AcceuilController@index')->name('home');
+Route::get('home', 'AcceuilController@index')->name('home');
 /**
  * Inscription Route {VISTEURS <===> JEUX-CONCOURS <===> PARTENAIRES <===> PRESSE]
  */
@@ -32,3 +33,8 @@ Route::post('registerJeux', 'InscriptionController@storeJeux')->name('registerJe
 Route::post('divertissement', 'InscriptionController@storeJeux')->name('divertissement');
 Route::post('visiteurs', 'InscriptionController@StoreVisiteurs')->name('visiteurs');
 Route::post('presse', 'InscriptionController@StorePresse')->name('presse');
+Route::post('partenaires', 'InscriptionController@storePartenaires')->name('partenaires');
+/**
+ * route pour les contacts
+ */
+Route::post('messageUser', 'contactUsController@Store')->name('messageUser');
