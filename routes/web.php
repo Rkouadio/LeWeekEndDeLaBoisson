@@ -22,7 +22,8 @@ Route::get('inscription', 'InscriptionController@index')->name('inscription');
 Route::get('inscriptionJeux', 'InscriptionController@indexJeux')->name('inscriptionJeux');
 Route::get('inscriptionVisiteurs', 'InscriptionController@indexVisiteurs')->name('inscriptionVisiteurs');
 Route::get('inscriptionPartenaires', 'InscriptionController@indexPartenaires')->name('inscriptionPartenaires');
-Route::get('inscriptionPresse', 'InscriptionController@indexPartenaires')->name('inscriptionPresse');
+Route::get('inscriptionPresse', 'InscriptionController@indexPresse')->name('inscriptionPresse');
+
 
 /**
  * ROute pour l'insertion
@@ -30,3 +31,4 @@ Route::get('inscriptionPresse', 'InscriptionController@indexPartenaires')->name(
 Route::post('registerJeux', 'InscriptionController@storeJeux')->name('registerJeux');
 Route::post('divertissement', 'InscriptionController@storeJeux')->name('divertissement');
 Route::post('visiteurs', 'InscriptionController@StoreVisiteurs')->name('visiteurs');
+Route::post('presse', 'InscriptionController@StorePresse')->name('presse');

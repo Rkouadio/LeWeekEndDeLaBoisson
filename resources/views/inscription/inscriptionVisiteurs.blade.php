@@ -13,7 +13,7 @@
         </div>
 
         <div class="wrap-input100 validate-input bg1" data-validate="Veuillez Entrer votre Prenoms">
-            <span class="label-input100">Votre Nom *</span>
+            <span class="label-input100">Votre Prenoms *</span>
             <input class="input100" type="text" name="prenoms" placeholder="Entrez Votre Prenoms">
         </div>
 
@@ -33,7 +33,7 @@
         </div>
 
         <div class="wrap-input100 input100-select bg1">
-            <span class="label-input100">Choix Jeux</span>
+            <span class="label-input100">Visiteurs</span>
             <div>
 
                 <select class="js-select2" name="choix">

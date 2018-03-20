@@ -35,7 +35,8 @@ class InscriptionController extends Controller
     }
     public function indexPresse()
     {
-        return view ('inscription.inscriptionPresse');
+        $presse = divertissement::whereCategorie('presse')->get();
+        return view ('inscription.inscriptionPresse', compact('presse'));
     }
 
 
@@ -64,18 +65,20 @@ class InscriptionController extends Controller
         $email=$request->email;
         $motivation=$request->motivation;
         $choix=$request->choix;
-        $contact=(empty($request->contact))?$request->contact:'non signifié';
-        $adresse=(empty($request->adresse))?$request->adresse:'non signifié';
+        $organe =(empty($request->organe))?$request->organe:'non signifié';
+        $contact=(!empty($request->contact))?$request->contact:'non signifié';
+        $adresse=(!empty($request->adresse))?$request->adresse:'non signifié';
 
     //    dd($request);
 
-        $visiteursEnregister= inscription::firstOrCreate([
+        $jeuxEnregister= inscription::firstOrCreate([
             'nom'=>$nom,
             'prenoms'=>$prenoms,
             'email'=>$email,
             'motivation'=>$motivation,
             'type_inscriptions'=>"jeux",
             'contact'=>$contact,
+            'organe'=>$organe,
             'adresse'=>$adresse,
             'choix'=>$choix
           ]);
@@ -92,18 +95,20 @@ class InscriptionController extends Controller
         $email=$request->email;
         $motivation=$request->motivation;
         $choix=$request->choix;
+        $organe =(empty($request->organe))?$request->organe:'non signifié';
         $contact=(!empty($request->contact))?$request->contact:'non signifié';
         $adresse=(!empty($request->adresse))?$request->adresse:'non signifié';
 
         //    dd($request);
 
-        $jeuxEnregister= inscription::firstOrCreate([
+        $visiteursEnregister= inscription::firstOrCreate([
             'nom'=>$nom,
             'prenoms'=>$prenoms,
             'email'=>$email,
             'motivation'=>$motivation,
             'type_inscriptions'=>"visiteurs",
             'contact'=>$contact,
+            'organe'=>$organe,
             'adresse'=>$adresse,
             'choix'=>$choix
         ]);
@@ -112,6 +117,67 @@ class InscriptionController extends Controller
         Session::flash('SuccesRapport','Votre inscription a ete pris en compte');
         return redirect()->route('inscriptionVisiteurs');
     }
+
+    public function storePresse(Request $request)
+    {
+        $nom=$request->nom;
+        $prenoms=$request->prenoms;
+        $email=$request->email;
+        $motivation=$request->motivation;
+        $choix=$request->choix;
+        $organe=(!empty($request->organe))?$request->organe:'non signifié';;
+        $contact=(!empty($request->contact))?$request->contact:'non signifié';
+        $adresse=(!empty($request->adresse))?$request->adresse:'non signifié';
+
+        //  dd($request);
+
+        $presseEnregister= inscription::firstOrCreate([
+            'nom'=>$nom,
+            'prenoms'=>$prenoms,
+            'email'=>$email,
+            'motivation'=>$motivation,
+            'type_inscriptions'=>"presse",
+            'contact'=>$contact,
+            'organe'=>$organe,
+            'adresse'=>$adresse,
+            'choix'=>$choix
+        ]);
+
+
+        Session::flash('SuccesRapport','Votre inscription a ete pris en compte');
+        return redirect()->route('home');
+    }
+
+    public function storePartenaires(Request $request)
+    {
+        $nom=$request->nom;
+        $prenoms=$request->prenoms;
+        $email=$request->email;
+        $motivation=$request->motivation;
+        $choix=$request->choix;
+        $organe=(!empty($request->organe))?$request->organe:'non signifié';;
+        $contact=(!empty($request->contact))?$request->contact:'non signifié';
+        $adresse=(!empty($request->adresse))?$request->adresse:'non signifié';
+
+        //  dd($request);
+
+        $partenairesEnregister= inscription::firstOrCreate([
+            'nom'=>$nom,
+            'prenoms'=>$prenoms,
+            'email'=>$email,
+            'motivation'=>$motivation,
+            'type_inscriptions'=>"partenaires",
+            'contact'=>$contact,
+            'organe'=>$organe,
+            'adresse'=>$adresse,
+            'choix'=>$choix
+        ]);
+
+
+        Session::flash('SuccesRapport','Votre inscription a ete pris en compte');
+        return redirect()->route('home');
+    }
+
 
     public function store(Request $request)
     {

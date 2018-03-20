@@ -1,6 +1,20 @@
 @extends('acceuil.index')
 @section('content')
+    @if(Session::has('SuccesRapport'))
 
+        <div class="alert alert-success">
+            {{Session::get('SuccesRapport')}} <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
+        </div>
+    @endif
+
+    @if(Session::has('EchecRapport'))
+
+        <div class="alert alert-warning">
+
+            {{Session::get('EchecRapport')}}<strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
+
+        </div>
+    @endif
     <!-- Slideshow SLIDER
     ================================================== -->
     <div id="main-slider" class="no-margin">
@@ -481,11 +495,11 @@
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Comme Visiteurs
                                         </a>
-                                        <a href="{{route('inscriptionPartenaires')}}" class="btn btn-sq-lg btn-info">
+                                        <a href="{{route('inscriptionPresse')}}" class="btn btn-sq-lg btn-info">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Organe de Presse
                                         </a>
-                                        <a href="{{route('inscriptionPresse')}}" class="btn btn-sq-lg btn-warning">
+                                        <a href="{{route('inscriptionPartenaires')}}" class="btn btn-sq-lg btn-warning">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Pour etre Partenaire
                                         </a>
