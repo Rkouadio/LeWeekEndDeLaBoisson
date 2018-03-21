@@ -27,7 +27,7 @@
             </ol>
             -->
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/web_slide2.jpg)">
+                <div class="item active img-responsive" style="background-image: url(images/slider/web_slide4.png)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12"s>
@@ -240,9 +240,10 @@
                                 <div class="col-md-12 col-xs-12">
                                     <div id="portfolio-container">
                                         <ul id="portfolio-items">
+                                            @foreach($photo as $photo)
                                             <li class="portfolio-item">
                                                 <div>
-                                                    <img class="img-responsive" src="images/portfolio/1.png" alt="">
+                                                    <img style="max-height: 700px ; max-width: 700px" class="img-responsive" src="{{$photo->lienPhoto}}" alt="">
 
                                                     <div class="portfolio-item-description">
                                                         <div>
@@ -250,14 +251,16 @@
                                                                href="portfolio1.html"
                                                                class="fa fa-info rounded"></a>
 
-                                                            <h3>consect adipisi elit</h3>
+                                                            <h3>{{$photo->intitule}}</h3>
 
-                                                            <p class="project-tag">Design, Develop</p>
+                                                            <p class="project-tag">{{$photo->description}}</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li class="portfolio-item">
+                                            @endforeach
+
+                                          <!--  <li class="portfolio-item">
                                                 <div>
                                                     <img class="img-responsive" src="images/portfolio/2.png" alt="">
 
@@ -409,7 +412,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </li> -->
                                         </ul>
                                         <div class="clearfix"></div>
                                     </div>

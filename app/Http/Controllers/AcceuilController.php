@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use \App\photo;
 use Illuminate\Http\Request;
+
 
 class AcceuilController extends Controller
 {
@@ -13,7 +14,8 @@ class AcceuilController extends Controller
      */
     public function index()
     {
-       return view ('acceuil.home');
+        $photo = photo::whereStatut('actif')->take(10)->get();
+       return view ('acceuil.home', compact('photo'));
     }
 
     /**
