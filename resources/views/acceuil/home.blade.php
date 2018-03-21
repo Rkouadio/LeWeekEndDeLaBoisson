@@ -508,24 +508,17 @@
                                 <div class="col-lg-2">
                                         <a href="{{route('inscriptionVisiteurs')}}" class="btn btn-sq-lg btn-success">
                                             <i class="fa fa-user fa-5x"></i><br/>
-                                            Incrivez-vous <br>Comme Visiteurs
-                                        </a>
+                                            Incrivez-vous <br>Comme Visiteurs</a>
+
+                                </div>
+                                <div class="col-lg-2">
                                         <a href="{{route('inscriptionPresse')}}" class="btn btn-sq-lg btn-info">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Organe de Presse
                                         </a>
+                                </div>
+                                <div class="col-lg-2">
                                         <a href="{{route('inscriptionPartenaires')}}" class="btn btn-sq-lg btn-warning">
-
-                                </div>
-                                <div class="col-lg-2">
-                                        <a href="{{route('inscriptionPartenaires')}}" class="btn btn-sq-lg btn-info">
-                                            <i class="fa fa-user fa-5x"></i><br/>
-                                            Incrivez-vous <br>Organe de Presse
-                                        </a>
-                                </div>
-                                <div class="col-lg-2">
-                                        <a href="{{route('inscriptionPresse')}}" class="btn btn-sq-lg btn-warning">
->>>>>>> origin/master
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Pour etre Partenaire
                                         </a>

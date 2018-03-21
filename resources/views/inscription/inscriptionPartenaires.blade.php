@@ -1,6 +1,7 @@
 @extends('inscription.inscriptionLayout')
 @section('InscriptionContent')
-    <form class="contact100-form validate-form" action="partenaires" method="post" >
+    <form class="contact100-form validate-form" action="partenaires" method="post" enctype="multipart/form-data">
+        {{csrf_field()}}
 				<span class="contact100-form-title">
 					Devenez Partenaire du WeekEnd de la Boisson
 				</span>
