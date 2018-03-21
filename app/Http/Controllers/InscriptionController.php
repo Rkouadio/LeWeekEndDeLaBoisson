@@ -86,7 +86,7 @@ class InscriptionController extends Controller
 
 
         Session::flash('SuccesRapport','Votre inscription a ete pris en compte');
-        return redirect()->route('inscriptionJeux');
+        return redirect()->route('home');
     }
 
     public function storeVisiteurs(Request $request)
@@ -116,7 +116,7 @@ class InscriptionController extends Controller
 
 
         Session::flash('SuccesRapport','Votre inscription a ete pris en compte');
-        return redirect()->route('inscriptionVisiteurs');
+        return redirect()->route('home');
     }
 
     public function storePresse(Request $request)

@@ -4,7 +4,7 @@
     <form class="contact100-form validate-form" action="presse" method="post" enctype="multipart/form-data">
         {{ csrf_field() }}
 				<span class="contact100-form-title">
-					Organe de Presse Inscrivez pour une Acreditation pour couvrir le  WeekEnd de la Boisson
+					Organe de Presse Inscrivez pour une Acreditation
 				</span>
 
 
