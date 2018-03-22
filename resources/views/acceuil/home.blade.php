@@ -27,14 +27,12 @@
             </ol>
             -->
             <div class="carousel-inner">
-                <div class="item active img-responsive" style="background-image: url(images/slider/web_slide4.png)">
+                <div class="item active img-responsive" style="background-image: url(images/slider/bgimageweb.png)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12"s>
                                 <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Le Week-End <span>De la Boisson</span></h2>
-
-                                    <h2 style="text-transform : lowercase" class="animation animated-item-2">Un rendez-vous de toutes les Brasseries</h2>
+                                    <h2 style="text-transform : lowercase;margin-top: 5px" class="animation animated-item-2"><span style="color:darkred">Un rendez-vous de toutes les Brasseries</span></h2>
                                     <br>
                                     <span class="content-nav">
 									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
