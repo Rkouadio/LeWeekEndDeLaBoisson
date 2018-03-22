@@ -54,18 +54,18 @@ class contactUsController extends Controller
             Mail::send('mail/mailRemerciement', $data, function($message) use($data)
             {
                 // $mail="kassieric60@gmail.com";
-                $mail="web@bao-technologie.com";
+                $mail="robot@weekendelaboisson.com";
                 $subject=$data['subject'];
                 $message->from( $mail);
                 $message->to($data['email'], $data['name'])->subject($subject);
             });
 
-            $persoMail='userpost@bao-technologie.com';
+            $persoMail='userpost@weekendelaboisson.com';
             $data1 = ['email'=>$persoMail,'name'=> 'Le Web sce Commercial','subject' => 'Mail recu depuis le site', 'content' => $content];
             Mail::send('mail/mailUser', $data1, function($message) use($data1)
             {
                 // $mail="kassieric60@gmail.com";
-                $mail="web@bao-technologie.com";
+                $mail="robot@weekendelaboisson.com";
                 $subject='Mail recu depuis le site';
                 $message->from( $mail);
                 $message->to($data1['email'], $data1['name'])->subject($subject);

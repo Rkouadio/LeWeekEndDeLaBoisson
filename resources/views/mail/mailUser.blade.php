@@ -12,15 +12,14 @@
         <td><h3>Nom : <strong style="color:#222222">{{session('user_name')}}</strong> </h3>
             <h3>Mail : <strong style="color:#222222">{{session('user_mail')}}</strong> </h3>
             <h2> Message : </h2>
-            <pre> {{session('user_message')}}</pre>
-            <p> Ce message a été envoyé depuis le site internet de l'evenement</p></td>
+            <pre style="color: darkgreen;font-weight: bold"> {{session('user_message')}}</pre>
+            <p style="color:orange"> Ce message a été envoyé depuis le site internet de l'evenement</p></td>
 
     </tr>
 
     <tr>
 
-        <td> <a id="logo" class="navbar-brand" href="http://www.weekenddelaboison.com"><img class="" src="images/web_logoV.png"
-                                                                      alt=""></a></td>
+        <td> <a id="logo" class="navbar-brand" href="http://www.weekenddelaboison.com"></a></td>
 
     </tr>
 
