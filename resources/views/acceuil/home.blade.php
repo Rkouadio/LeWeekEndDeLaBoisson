@@ -1,6 +1,20 @@
 @extends('acceuil.index')
 @section('content')
+    @if(Session::has('SuccesRapport'))
 
+        <div class="alert alert-success">
+            {{Session::get('SuccesRapport')}} <strong><i class="glyphicon glyphicon-thumbs-up"></i></strong>
+        </div>
+    @endif
+
+    @if(Session::has('EchecRapport'))
+
+        <div class="alert alert-warning">
+
+            {{Session::get('EchecRapport')}}<strong> <i class="glyphicon glyphicon-thumbs-down"></i> </strong>
+
+        </div>
+    @endif
     <!-- Slideshow SLIDER
     ================================================== -->
     <div id="main-slider" class="no-margin">
@@ -13,14 +27,14 @@
             </ol>
             -->
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/web_slide2.jpg)">
+                <div class="item active img-responsive" style="background-image: url(images/slider/web_slide4.png)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12"s>
                                 <div class="carousel-content centered">
-                                    <h2 style="text-transform : lowercase;color:#0b2e13;font-weight: bold"  class="animation animated-item-1">Le Week-End <span style="color:yellow">De la Boisson</span></h2>
+                                    <h2 class="animation animated-item-1">Le Week-End <span>De la Boisson</span></h2>
 
-                                    <h2 style="text-transform : lowercase;color:#0b2e13;font-weight: bold" class="animation animated-item-2">Un rendez-vous de toutes les Brasseries</h2>
+                                    <h2 style="text-transform : lowercase" class="animation animated-item-2">Un rendez-vous de toutes les Brasseries</h2>
                                     <br>
                                     <span class="content-nav">
 									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
@@ -226,9 +240,10 @@
                                 <div class="col-md-12 col-xs-12">
                                     <div id="portfolio-container">
                                         <ul id="portfolio-items">
+                                            @foreach($photo as $photo)
                                             <li class="portfolio-item">
                                                 <div>
-                                                    <img class="img-responsive" src="images/portfolio/1.png" alt="">
+                                                    <img style="max-height: 700px ; max-width: 700px" class="img-responsive" src="{{$photo->lienPhoto}}" alt="">
 
                                                     <div class="portfolio-item-description">
                                                         <div>
@@ -236,14 +251,16 @@
                                                                href="portfolio1.html"
                                                                class="fa fa-info rounded"></a>
 
-                                                            <h3>consect adipisi elit</h3>
+                                                            <h3>{{$photo->intitule}}</h3>
 
-                                                            <p class="project-tag">Design, Develop</p>
+                                                            <p class="project-tag">{{$photo->description}}</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li class="portfolio-item">
+                                            @endforeach
+
+                                          <!--  <li class="portfolio-item">
                                                 <div>
                                                     <img class="img-responsive" src="images/portfolio/2.png" alt="">
 
@@ -395,7 +412,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </li> -->
                                         </ul>
                                         <div class="clearfix"></div>
                                     </div>
@@ -494,17 +511,17 @@
                                 <div class="col-lg-2">
                                         <a href="{{route('inscriptionVisiteurs')}}" class="btn btn-sq-lg btn-success">
                                             <i class="fa fa-user fa-5x"></i><br/>
-                                            Incrivez-vous <br>Comme Visiteurs
-                                        </a>
+                                            Incrivez-vous <br>Comme Visiteurs</a>
+
                                 </div>
                                 <div class="col-lg-2">
-                                        <a href="{{route('inscriptionPartenaires')}}" class="btn btn-sq-lg btn-info">
+                                        <a href="{{route('inscriptionPresse')}}" class="btn btn-sq-lg btn-info">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Organe de Presse
                                         </a>
                                 </div>
                                 <div class="col-lg-2">
-                                        <a href="{{route('inscriptionPresse')}}" class="btn btn-sq-lg btn-warning">
+                                        <a href="{{route('inscriptionPartenaires')}}" class="btn btn-sq-lg btn-warning">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Pour etre Partenaire
                                         </a>
@@ -885,7 +902,7 @@
                                     <div class="contact-info">
                                         <ul>
                                             <li class="first">
-                                                <p style="color:orange"><i class="fa fa-map-marker fa-2"></i>Week-end De La Boisson</p>
+                                                <p><i class="fa fa-map-marker fa-2"></i>Week-end De La Boisson</p>
                                                 <p> Palais de la Culture d'Abidjan, Treichville.</p>
                                             </li>
                                             <li class="second">

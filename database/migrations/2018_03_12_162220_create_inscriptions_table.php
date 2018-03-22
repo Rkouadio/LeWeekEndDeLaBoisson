@@ -21,6 +21,7 @@ class CreateInscriptionsTable extends Migration
             $table->string('contact');
             $table->string('adresse');
             $table->string('motivation');
+            $table->string('organe');
             $table->string('choix');
             $table->string('type_inscriptions');
 
