@@ -32,7 +32,7 @@
                         <div class="row">
                             <div class="col-sm-12"s>
                                 <div class="carousel-content centered">
-                                    <h2 style="text-transform : lowercase;margin-top: 5px" class="animation animated-item-2"><span style="color:darkred">Un rendez-vous de toutes les Brasseries</span></h2>
+                                    <h2 style="text-transform : lowercase;margin-top: 5px" class="animation animated-item-2"><span style="color:darkred">Le rendez-vous de toutes les Brasseries</span></h2>
                                     <br>
                                     <span class="content-nav">
 									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
