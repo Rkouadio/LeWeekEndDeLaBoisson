@@ -27,12 +27,13 @@
             </ol>
             -->
             <div class="carousel-inner">
-                <div class="item active img-responsive" style="background-image: url(images/slider/bgimageweb.png)">
+                <div class="item active img-responsive" style="background-image: url(images/slider/slide_web.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12"s>
                                 <div class="carousel-content centered">
-                                    <h2 style="text-transform : lowercase;margin-top: 5px" class="animation animated-item-2"><span style="color:darkred">Le rendez-vous de toutes les Brasseries</span></h2>
+                                    <h2 class="animation animated-item-1">Le <span>WEB</span></h2>
+                                    <h2 style="font-size: 40px" class="animation animated-item-2"><span style="color:white">Un rendez-vous de toutes les Brasseries</span></h2>
                                     <br>
                                     <span class="content-nav">
 									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
@@ -43,14 +44,17 @@
                     </div>
                 </div>
                 <!--/.item-->
-                <div class="item" style="background-image: url(images/slider/slide2.jpg)">
+                <div class="item" style="background-image: url(images/slider/slide_web2.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content center centered">
                                     <h2 class="animation animated-item-1">Des <span>Degustations</span></h2>
-
+                                    <h2 style="font-size: 40px" class="animation animated-item-2"><span style="color:white">+20 Boissons et Produits de Bouche</span></h2>
+                                    <!--
+                                    <h2 class="animation animated-item-2">Des <span>Degustations</span></h2>
                                     <h2 class="animation animated-item-2">+20 Boissons et Produits de Bouche</h2>
+                                        -->
                                     <br>
                                     <span class="content-nav">
 									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
@@ -76,7 +80,7 @@
                             <div class="col-sm-12">
                                 <div class="carousel-content centered">
 
-                                    <h2 class="animation animated-item-1"><span></span></h2>
+                                    <h2 class="animation animated-item-1">GAITE<span>JOIE</span></h2>
 
                                     <h2 class="animation animated-item-2"></h2>
 
@@ -232,7 +236,7 @@
                 <div class="inner-wrapper">
                     <div class="row">
                         <div class="container">
-                            <h2>Notre  <span>Phototeque</span></h2>
+                            <h2>Notre  <span style="color : red">Phototeque</span></h2>
 
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
@@ -241,12 +245,12 @@
                                             @foreach($photo as $photo)
                                             <li class="portfolio-item">
                                                 <div>
-                                                    <img style="max-height: 700px ; max-width: 700px" class="img-responsive" src="{{$photo->lienPhoto}}" alt="">
+                                                    <img style="max-height: 700px ; max-width: 700px" class="img-responsive img-rounded" src="{{$photo->lienPhoto}}" alt="">
 
                                                     <div class="portfolio-item-description">
                                                         <div>
                                                             <a
-                                                               href="portfolio1.html"
+                                                               href="#"
                                                                class="fa fa-info rounded"></a>
 
                                                             <h3>{{$photo->intitule}}</h3>
@@ -434,11 +438,11 @@
                 <div class="inner-wrapper">
                     <div class="row">
                         <div class="container">
-                            <h2>Le Week-end De La <span>Boisson ?</span></h2>
+                            <h2 style="color : red">Le Week-end De La <span>Boisson ?</span></h2>
 
                             <div class="row contents">
                                 <div class="col-md-6">
-                                    <p> Le WEB, Week-end de la Boisson est une idée original en vue de créer une plate forme d'echange,
+                                    <p> Le <span style="color: white">WEB, Week-end de la Boisson</span> est une idée original en vue de créer une plate forme d'echange,
                                     de rejouissance et de decouvertes. Elle permettra de créer un cadre de rencontre entre les professionnels
                                         de la boisson.
                                     </p>
@@ -454,16 +458,16 @@
                                 <div class="col-md-6">
                                     <h3>Communication autour de l'Evenement</h3>
                                     </br>
-                                    <p> La reussite du WEB 2018, repose sur une communicatiuon de proximité, en vue d'interesser
+                                    <p> La reussite du <span>WEB 2018</span>, repose sur une communicatiuon de proximité, en vue d'interesser
                                     chaque ivoirien(ne) & toute la diapora a cet evenement unique en son genre. car elle sera le lieu de rencontre
                                         entre Consommateurs et Brasseries !
                                     </p>
 
                                     <div class="progress-bars">
-                                        <div class="skill-progress" data-skill="75%">TV</div>
-                                        <div class="skill-progress" data-skill="60%">PRESSE</div>
-                                        <div class="skill-progress" data-skill="90%">INTERNET</div>
-                                        <div class="skill-progress" data-skill="55%">AFFICHAGE</div>
+                                        <div class="skill-progress" data-skill="95%">AMBIANCE</div>
+                                        <div class="skill-progress" data-skill="96%">GAITE</div>
+                                        <div class="skill-progress" data-skill="97%">JOIE</div>
+                                        <div class="skill-progress" data-skill="98%">FETE</div>
                                     </div>
                                     <div class="connect">
                                         <h3>Restez Connecter au WEB</h3>
@@ -471,7 +475,7 @@
                                         <div class="social-shares">
                                             <ul>
                                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="{{url('https://www.facebook.com/WeekEndDeLaBoisson/')}}"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="{{url('https://www.facebook.com/WeekEndDeLaBoisson/')}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-skype"></i></a></li>
                                             </ul>
