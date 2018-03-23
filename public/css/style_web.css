@@ -3,9 +3,12 @@
 #logo {
     width            : 200px;
     height           : 122px;
-    background-color : orange;
+    background-color : #842E1B;
 }
-
+#main-slider .carousel-content {
+    margin-top : 25%;
+    padding    : 0 50px;
+}
 /*Menu
 ================================================== */
 #menu {
@@ -112,7 +115,7 @@
     color : #000;
 }
 #aboutus p {
-    color: #800000;
+    color: #000000;
     font-weight: bold;
 }
 
