@@ -33,7 +33,7 @@
                             <div class="col-sm-12"s>
                                 <div class="carousel-content centered">
                                     <h2 class="animation animated-item-1">Le <span>WEB</span></h2>
-                                    <h2 style="font-size: 40px" class="animation animated-item-2"><span style="color:white">Un rendez-vous de toutes les Brasseries</span></h2>
+                                    <h2 style="font-size: 40px" class="animation animated-item-2 "><span class="fadeInLeftBig" style="color:white">Un rendez-vous de toutes les Brasseries</span></h2>
                                     <br>
                                     <span class="content-nav">
 									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
@@ -552,7 +552,7 @@
                 <div class="inner-wrapper">
                     <div class="row">
                         <div class="container">
-                            <h2>Nos Partenaires  <span> & Sponsors</span></h2>
+                            <h2>3 JOURS DE <span style="color :red"> GAIETE</span></h2>
 
                             <div class="row">
                                <!-- <div id="clients">
@@ -594,6 +594,89 @@
                                     </div>
 
                                 </div> -->
+                                <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4 fadeInRight">
+                                    <h3  style="color:orangered;text-transform: none">A la première journée</h3>
+                                    <div class=""></br>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Allocution
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Ouverture Officielle avec un groupe artistique
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Visite des stands et découverte
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Animation sponsors et partenaires
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Atéliers et dégustation
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Jeux + Concours + mixage Dj
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Mini concert
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Temps musical / Maquis Geant
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4">
+                                    <h3 style="color:orangered;text-transform: none">A la seconde journée</h3>
+                                    <div class=""></br>
+                                        <p class="">
+                                            <i class="fas fa-check"></i></i> Animations
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check"></i> Visite des stands et découverte
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check"></i> Animation sponsors et partenaires
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check"></i> Jeux + Concours + mixage Dj
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check"></i>  Mini concert(artistes - humoristes -orchestre)
+                                        </p>
+
+                                        <p class="">
+                                            <i class="fas fa-check"></i> Temps musical / Maquis Geant / bal cloture
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4">
+                                    <h3  style="color:orangered;text-transform: none;font-weight: bold">A la troisième journée</h3>
+                                    <div class=""></br>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Animations
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Visite des stands et découverte
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Animation sponsors et partenaires
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Dégustation
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Jeux + concours + mixage Dj
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i></i> mini-concert (artistes + humoristes + orchestre)
+                                        </p>
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i></i> Animation sponsors et partenaires
+                                        </p>
+
+                                        <p class="">
+                                            <i class="fas fa-check-circle"></i> Temps musical / Maquis Geant / bal cloture
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -894,7 +977,7 @@
                 <div class="inner-wrapper">
                     <div class="row">
                         <div class="container">
-                            <h2><span>Contacez-nous</span>Maintenant !</h2>
+                            <h2 style="text-transform: none"><span >Laissez-nous un </span> Message </h2>
 
                             <div class="row">
                                 <div class="col-md-12">
@@ -904,13 +987,13 @@
                                     <div class="contact-info">
                                         <ul>
                                             <li class="first">
-                                                <p><i class="fa fa-map-marker fa-2"></i>Week-end De La Boisson</p>
+                                                <p><i class="fa fa-map-marker fa-2"></i><span style="color: orangered">Week-end De La Boisson</span></p>
                                                 <p> Palais de la Culture d'Abidjan, Treichville.</p>
                                             </li>
                                             <li class="second">
                                                 <p><i class="fa fa-phone fa-2"></i> +225 22417844-07582431</p>
 
-                                                <p><i class="fa fa-envelope fa-2"></i> africimage@gmail.com </p>
+                                                <p><i class="fa fa-envelope fa-2"></i> <span style="color: orangered">infos@weekendelaboisson.com</span>
                                             </li>
                                             <li class="third">
                                                 <p><i class="fa fa-clock-o fa-2"></i> 13-14 & 15 Juillet 2018</p>
