@@ -14,7 +14,8 @@ class AcceuilController extends Controller
      */
     public function index()
     {
-        $photo = photo::whereStatut('actif')->take(10)->get();
+        //$photo = photo::whereStatut('actif')->take(10)->get();
+        $photo = photo::whereStatut('actif')->inRandomOrder()->get();
        return view ('acceuil.home', compact('photo'));
     }
 
