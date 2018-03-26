@@ -555,7 +555,7 @@
                             <h2>Nos Partenaires  <span> & Sponsors</span></h2>
 
                             <div class="row">
-                                <div id="clients">
+                               <!-- <div id="clients">
                                     <div class="col-md-2 col-sm-3 col-xs-4">
                                         <a href="#"><img src="images/clients/1.png" alt=""></a>
                                     </div>
@@ -593,7 +593,7 @@
                                         <a href="#"><img src="images/clients/12.png" alt=""></a>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
