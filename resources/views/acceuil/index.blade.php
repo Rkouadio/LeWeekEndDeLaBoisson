@@ -22,6 +22,7 @@
     <link href="css/style_web.css" rel="stylesheet">
     <link href="css/media-query.css" rel="stylesheet">
 
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -41,8 +42,9 @@
 </head>
 
 <body>
-<div class="body-inner-wrapper">
-    <!-- Navbar  MENU
+
+<div class="">
+    <!-- Navbar body-inner-wrapper MENU
     ================================================== -->
     <div id="menu-wrapper" class="navbar-wrapper">
         <div class="inner-container">
@@ -137,7 +139,10 @@
 <script src="js/waypoints.min.js"></script>
 <script src="js/themehippo.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script src="js/jquery.sticky-kit.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/kinetic.js"></script>
+<script src="js/jquery.final-countdown.min.js"></script>
 <script src="js/script.js"></script>
-
 </body>
 </html>
