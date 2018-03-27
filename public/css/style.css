@@ -412,6 +412,22 @@ a, a:hover {
     margin-top : 38%;
     padding    : 0 50px;
 }
+/* partie ajouter */
+.quotes {
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.4em;
+    display: none;
+}
+
+.headline {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 0%;
+    padding-bottom: 0.5em;
+    color: #fff;
+}
 
 #main-slider .content-nav a {
     background  : url(../images/slider/down-arrow.png) 0 0 no-repeat;

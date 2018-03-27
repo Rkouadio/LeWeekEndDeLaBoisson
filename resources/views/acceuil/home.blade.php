@@ -30,10 +30,22 @@
                 <div class="item active img-responsive" style="background-image: url(images/slider/slide_web.jpg)">
                     <div class="container">
                         <div class="row">
+
                             <div class="col-sm-12"s>
                                 <div class="carousel-content centered">
                                     <h2 class="animation animated-item-1">Le <span>WEB</span></h2>
-                                    <h2 style="font-size: 40px" class="animation animated-item-2 "><span class="fadeInLeftBig" style="color:white">Un rendez-vous de toutes les Brasseries</span></h2>
+                                    <h2 style="font-size: 40px" class="animation animated-item-2 "><span class="fadeInLeftBig" style="color:white;text-transform: none">Le Grand rendez-vous de toutes les Brasséries  <div class="row">
+                            <div class="wow fadeInLeft" style="z-index: 9999;">
+                                <div class="headline-wrap">
+                                    <h2 class="headline animation animated-item-1" style="color:orange">
+
+                                        <span style="color:darkorange;font-weight:bold" class="quotes">Un Evenement</span>
+                                        <span style="color:green;font-weight:bold" class="quotes">Une Fete</span>
+                                        <span style="color:white;font-weight:bold" class="quotes">Une Joie</span>
+                                        <span style="color:yellow;font-weight:bold" class="quotes">Une Gaiete</span>
+                                        <span style="color:grey;font-weight:bold" class="quotes">Un Partage</span>
+
+                                    </h2> </div> </div> </div></span></h2>
                                     <br>
                                     <span class="content-nav">
 									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
@@ -62,6 +74,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <!--/.item-->
