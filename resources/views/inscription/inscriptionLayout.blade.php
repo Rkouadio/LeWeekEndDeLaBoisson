@@ -53,7 +53,7 @@
       <div class="center">
           <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-danger btn-lg"><span>Plus d'info</span></button>
           <a href="{{route('home')}}"> <button class="btn btn-success btn-lg"><span>Retournez a l'Acueill</span></button></a>
-          <a href="{{url('https://www.facebook.com/WeekEndDeLaBoisson/')}}" target="_blank"> <button class="btn btn-primary btn-lg"><span>Visitez notre page Facebook</span></button></a>
+          <a href="{{url('https://www.facebook.com/WeekEndDeLaBoisson/')}}" target="_blank"> <button class="btn btn-warning btn-lg"><span>Visitez notre page Facebook</span></button></a>
       </div>
 
       <!-- line modal -->
