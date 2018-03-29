@@ -635,7 +635,7 @@
 
                                 </div> -->
                                 <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4 fadeInRight">
-                                    <h3  style="color: #2E2D2D; text-transform: none ; font-weight: bold"><span style="color: orangered">Jour 1</span>- 13 Juillet 2018</h3>
+                                    <h3  style="color: #2E2D2D; text-transform: none ; font-weight: bold"><span style="color: Gray">Jour 1</span>- 13 Juillet 2018</h3>
                                     <div  style="color: #B22222" class=""></br>
                                         <p class="">
                                             <i class="fas fa-check-circle"></i> Allocution
@@ -664,7 +664,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4">
-                                    <h3 style="color: #2E2D2D; text-transform: none ; font-weight: bold"><span style="color: orangered">Jour 2</span>- 14 Juillet 2018</h3>
+                                    <h3 style="color: #2E2D2D; text-transform: none ; font-weight: bold"><span style="color: Gray">Jour 2</span>- 14 Juillet 2018</h3>
                                     <div class="" style="color: #B22222"></br>
                                         <p class="">
                                             <i class="fas fa-check"></i></i> Animations
@@ -688,7 +688,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4">
-                                    <h3  style="color: #2E2D2D;text-transform: none;font-weight: bold"> <span style="color: orangered">Jour 3</span>- 15 Juillet 2018</h3>
+                                    <h3  style="color: #2E2D2D;text-transform: none;font-weight: bold"> <span style="color: Gray">Jour 3</span>- 15 Juillet 2018</h3>
                                     <div style="color: #B22222; font-weight: bold" class=""></br>
                                         <p class="">
                                             <i class="fas fa-check-circle"></i> Animations
