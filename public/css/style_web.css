@@ -125,6 +125,7 @@
  */
 #client-wrapper:before {
     border-left-color : #ffe175;
+
 }
 
 #client {
@@ -189,4 +190,39 @@
     min-height : 200px;
     margin-top : -50px;
     padding    : 100px 0;
+}
+#main-slider .carousel .item.active {
+    -ms-filter         : "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter             : alpha(opacity=100);
+    opacity            : 1;
+
+    -webkit-transition : opacity ease-in-out 300ms;
+    -moz-transition    : opacity ease-in-out 300ms;
+    -o-transition      : opacity ease-in-out 300ms;
+    -ms-transition     : opacity ease-in-out 300ms;
+    transition         : opacity ease-in-out 300ms;
+    z-index            : 1;
+}
+#main-slider .active .animation.animated-item-1 {
+    -webkit-animation : fadeInUp 300ms linear;
+    -moz-animation    : fadeInUp 300ms linear;
+    -ms-animation     : fadeInUp 300ms linear;
+    -o-animation      : fadeInUp 300ms linear;
+    animation         : fadeInUp 300ms linear;
+}
+
+#main-slider .active .animation.animated-item-2 {
+    -webkit-animation : fadeInUp 500ms linear 300ms;
+    -moz-animation    : fadeInUp 500ms linear 300ms;
+    -ms-animation     : fadeInUp 500ms linear 300ms;
+    -o-animation      : fadeInUp 500ms linear 300ms;
+    animation         : fadeInUp 500ms linear 300ms;
+}
+
+#main-slider .active .animation.animated-item-3 {
+    -webkit-animation : fadeInUp 500ms linear 300ms;
+    -moz-animation    : fadeInUp 500ms linear 300ms;
+    -ms-animation     : fadeInUp 500ms linear 300ms;
+    -o-animation      : fadeInUp 500ms linear 300ms;
+    animation         : fadeInUp 500ms linear 300ms;
 }

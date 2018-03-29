@@ -448,8 +448,8 @@ a, a:hover {
     position   : absolute;
     bottom     : 0px;
     right      : 0px;
-    min-width  : 100%;
-    min-height : 100%;
+    min-width  : auto;
+    min-height : auto;
     max-height : 4000%;
     max-width  : 1000%;
     width      : auto;
@@ -459,7 +459,7 @@ a, a:hover {
 }
 
 #video_pattern {
-    background-image : url(../images/pattern.png);
+  /*  background-image : url(../images/pattern.png);*/
     position         : fixed;
     -ms-filter       : "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     filter           : alpha(opacity=80);

@@ -70,7 +70,7 @@
                             <li class="service"><a href="#services-wrapper">Programme</a></li>
                             <li class="portfolio"><a href="#portfolio-wrapper">Phototheque</a></li>
                             <li class="team"><a href="#team-wrapper">Inscription</a></li>
-                            <li class="client"><a href="#client-wrapper">Partenaires</a></li>
+                            <li class="client"><a href="#client-wrapper">En détails</a></li>
                             <li class="contact"><a href="#contact-wrapper">Contact</a></li>
                         </ul>
                     </div>
