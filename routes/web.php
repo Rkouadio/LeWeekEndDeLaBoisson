@@ -16,6 +16,7 @@
  */
 Route::get('/', 'AcceuilController@index')->name('home');
 Route::get('home', 'AcceuilController@index')->name('home');
+
 /**
  * Inscription Route {VISTEURS <===> JEUX-CONCOURS <===> PARTENAIRES <===> PRESSE]
  */
