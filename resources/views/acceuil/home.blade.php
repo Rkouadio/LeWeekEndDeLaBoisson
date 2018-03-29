@@ -113,7 +113,7 @@
                                     <h2 class="animation animated-item-1"><span>Une Célébration Culturelle</span></h2>
 
                                     <h2 class="animation animated-item-2">
-                                        <span class="fadeInLeftBig" style="color:yellow;text-transform: none">
+                                        <span class="fadeInLeftBig" style="color:darkorange; text-transform: none">
                                             Le Grand rendez-vous de toutes les Brasséries  <div class="row">
                             <div class="wow fadeInLeft" style="z-index: 9999;">
                                 <div class="headline-wrap">
@@ -635,8 +635,8 @@
 
                                 </div> -->
                                 <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4 fadeInRight">
-                                    <h3  style="color:orangered;text-transform: none">A la première journée</h3>
-                                    <div class=""></br>
+                                    <h3  style="color: #ffffff; text-transform: none ; font-weight: bold">Jour 1- 13 Juillet 2018</h3>
+                                    <div  style="color: #B22222" class=""></br>
                                         <p class="">
                                             <i class="fas fa-check-circle"></i> Allocution
                                         </p>
@@ -664,8 +664,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4">
-                                    <h3 style="color:orangered;text-transform: none">A la seconde journée</h3>
-                                    <div class=""></br>
+                                    <h3 style="color: #ffffff; text-transform: none ; font-weight: bold">Jour 2- 14 Juillet 2018</h3>
+                                    <div class="" style="color: #B22222"></br>
                                         <p class="">
                                             <i class="fas fa-check"></i></i> Animations
                                         </p>
@@ -688,8 +688,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4">
-                                    <h3  style="color:orangered;text-transform: none;font-weight: bold">A la troisième journée</h3>
-                                    <div class=""></br>
+                                    <h3  style="color: #ffffff;text-transform: none;font-weight: bold">Jour 3- 15 Juillet 2018</h3>
+                                    <div style="color: #B22222; font-weight: bold" class=""></br>
                                         <p class="">
                                             <i class="fas fa-check-circle"></i> Animations
                                         </p>
