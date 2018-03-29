@@ -52,39 +52,168 @@
   <div class="container">
       <div class="center">
           <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-danger btn-lg"><span>Plus d'info</span></button>
-
           <a href="{{route('home')}}"> <button class="btn btn-success btn-lg"><span>Retournez a l'Acueill</span></button></a>
+          <a href="{{url('https://www.facebook.com/WeekEndDeLaBoisson/')}}" target="_blank"> <button class="btn btn-primary btn-lg"><span>Visitez notre page Facebook</span></button></a>
       </div>
 
       <!-- line modal -->
+
+      <!-- Si Route = inscriptionJeux afficher les informations des jeux -->
+      @if(\Request::is('inscriptionJeux'))
       <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
           <div class="modal-dialog">
               <div class="modal-content">
                   <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                      <h3 class="modal-title" id="lineModalLabel">My Modal</h3>
+
+                      <h3 style ="color: #ff8c00 ; font-style: italic ; font-weight: bold" class="modal-title" id="lineModalLabel">INFORMATIONS JEUX</h3>
                   </div>
                   <div class="modal-body">
-                      Un texte est une série orale ou écrite de mots perçus comme constituant un ensemble cohérent, porteur de sens et utilisant les structures propres à une langue (conjugaisons, construction et association des phrases…)1. Un texte n'a pas de longueur déterminée sauf dans le cas de poèmes à forme fixe comme le sonnet ou le haïku.
+                      <div class="row">
+                          <div class="col-md-4">
+                              <img style="max-height: 200px ; max-width: 150px" src="images/blog/web_jeux.jpg" alt="">
 
-                      L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.
-                      L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.
-                      L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.
-                      L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.
-                      L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.
-                      L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.
-                      L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.
+                          </div>
+                          <div class="col-md-8">
+                              Vivez une experience sans pareil pendant le <span style="color: red">WEB</span> en participant a nos Jeux Concours
+                              Choississez au moins une de nos rubriques de jeux : La Danse, Le Marracana, Le Quiz, ensuite inscrivez !
+                          </div>
+                      </div>
+                       <div class="row">
+                           <div class="col-md-12">
+                                Participez et soyez le meilleur joueur et recevez de nombreux lots de la part de partenaires et sponsors privilegiés !
+                           </div>
+                       </div>
 
                   </div>
                   <div class="modal-footer">
-                        <button class="btn btn-primary btn-lg">
-                                            MERCI
+                        <button class="btn btn-primary btn-lg" data-dismiss="modal">
+                                            MERCI DE VOUS INSCRIRE
                         </button>
-
                   </div>
               </div>
           </div>
       </div>
+      @endif
+
+  <!-- Si Route = inscriptionVisiteurs afficher les informations des jeux -->
+      @if(\Request::is('inscriptionVisiteurs'))
+          <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+
+                          <h3 style ="color: #ff8c00 ; font-style: italic ; font-weight: bold" class="modal-title" id="lineModalLabel">INFORMATIONS POUR LES VISITEURS</h3>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <img style="max-height: 200px ; max-width: 150px" src="images/blog/web_visiteurs.jpg" alt="">
+
+                              </div>
+                              <div class="col-md-8">
+                                  Chers Visiteurs, veuillez vous inscrire pour etre compter parmi les chaleureux participant du <span style="color: red">WEB</span> pour vivre,
+                                  une experience unique au rendez-vous de toutes les brasseries en un seul lieu
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  Rester branchez au <span style="color: red">WEB</span>, en suivant notre page Facebook : <a href="{{url('https://www.facebook.com/WeekEndDeLaBoisson/')}}" target="_blank"><img style=" max-width: 50px ; max-height: 50px" src="images/blog/facebook_icon.png">Weeekend De La Boisson</a>
+                              </div>
+                          </div>
+
+                      </div>
+                      <div class="modal-footer">
+                          <button class="btn btn-primary btn-lg" data-dismiss="modal">
+                              MERCI DE VOTRE VISITE
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      @endif
+
+  <!-- Si Route = inscriptionPartenaires afficher les informations des jeux -->
+      @if(\Request::is('inscriptionPartenaires'))
+          <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+
+                          <h3 style ="color: #ff8c00 ; font-style: italic ; font-weight: bold" class="modal-title" id="lineModalLabel">INFORMATIONS POUR LES PARTENAIRES</h3>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <img style="max-height: 200px ; max-width: 150px" src="images/blog/web_partenaires.jpg" alt="">
+
+                              </div>
+                              <div class="col-md-8">
+                                  Entreprises, Annonceurs joingrnez votre image au <span style="color: red">WEB</span> pen vous inscrivant pour
+                                  unn evenement de marque et d'envergure !
+                                  le <span style="color: red">WEB</span> c'est trois jours de partage, de convivialité, de gaité !
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  Vivez un partenariat, sans precedent en vous connectant au Web
+                                  Rester branchez au <span style="color: red">WEB</span>, en suivant notre page Facebook : <a href="{{url('https://www.facebook.com/WeekEndDeLaBoisson/')}}" target="_blank"><img style=" max-width: 50px ; max-height: 50px" src="images/blog/facebook_icon.png">Weeekend De La Boisson</a>
+                              </div>
+                          </div>
+
+                      </div>
+                      <div class="modal-footer">
+                          <button class="btn btn-primary btn-lg" data-dismiss="modal">
+                              MERCI DE NOUS FAIRE CONFINACE !
+                          </button>
+                      </div>
+                  </div>
+               </div>
+          </div>
+      @endif
+
+  <!-- Si Route = inscriptionPresse afficher les informations des jeux -->
+      @if(\Request::is('inscriptionPresse'))
+          <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+
+                          <h3 style ="color: #ff8c00 ; font-style: italic ; font-weight: bold" class="modal-title" id="lineModalLabel">INFORMATIONS POUR LA PRESSE</h3>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <img style="max-height: 200px ; max-width: 150px" src="images/blog/web_presse.jpg" alt="">
+
+                              </div>
+                              <div class="col-md-8">
+                                  Entreprises, Annonceurs joingrnez votre image au <span style="color: red">WEB</span> pen vous inscrivant pour
+                                  unn evenement de marque et d'envergure !
+                                  le <span style="color: red">WEB</span> c'est trois jours de partage, de convivialité, de gaité !
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  Vivez un partenariat, sans precedent en vous connectant au Web
+                                  Rester branchez au <span style="color: red">WEB</span>, en suivant notre page Facebook : <a href="{{url('https://www.facebook.com/WeekEndDeLaBoisson/')}}" target="_blank"><img style=" max-width: 50px ; max-height: 50px" src="images/blog/facebook_icon.png">Weeekend De La Boisson</a>
+                              </div>
+                          </div>
+
+                      </div>
+                      <div class="modal-footer">
+                          <button class="btn btn-primary btn-lg" data-dismiss="modal">
+                              MERCI DE NOUS FAIRE CONFINACE !
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      @endif
+
   </div>
     <div class="row">
         <div class="col-lg-12">
