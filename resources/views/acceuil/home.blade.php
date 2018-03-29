@@ -27,14 +27,15 @@
             </ol>
             -->
             <div class="carousel-inner">
-                <div class="item active img-responsive" style="background-image: url(images/slider/slide_web.jpg)">
+                <div class="item " style="background-image: url(images/slider/slide_web.jpg)">
                     <div class="container">
                         <div class="row">
 
                             <div class="col-sm-12"s>
                                 <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Le <span>WEB</span></h2>
-                                    <h2 style="font-size: 40px" class="animation animated-item-2 "><span class="fadeInLeftBig" style="color:white;text-transform: none">Le Grand rendez-vous de toutes les Brasséries  <div class="row">
+                                    <h2 class="animation animated-item-1"> <span style="text-transform: none;color:yellow;font-weight: bold">Le Week End de La Boisson</span></h2>
+                                    <h2 style="font-size: 40px" class="animation animated-item-2 ">
+                                        <span class="fadeInLeftBig" style="color:whitesmoke;text-transform: none;font-weight: bold">La Boisson au centre des réjouissances et des découvertes<div class="row">
                             <div class="wow fadeInLeft" style="z-index: 9999;">
                                 <div class="headline-wrap">
                                     <h2 class="headline animation animated-item-1" style="color:orange">
@@ -62,11 +63,27 @@
                             <div class="col-sm-12">
                                 <div class="carousel-content center centered">
                                     <h2 class="animation animated-item-1">Des <span>Degustations</span></h2>
-                                    <h2 style="font-size: 40px" class="animation animated-item-2"><span style="color:white">+20 Boissons et Produits de Bouche</span></h2>
+                                    <h2 style="font-size: 40px" class="animation animated-item-2">
+                                        <span class="fadeInLeftBig" style="color:yellow;text-transform: none;font-weight: bold">
+                                           Plus de 20 Boissons Issus de Diverses Régions à découvrir
+                                            <div class="row">
+                            <div class="wow fadeInLeft" style="z-index: 9999;">
+                                <div class="headline-wrap">
+                                    <h2 class="headline animation animated-item-1" style="color:orange">
+
+                                        <span style="color:darkgrey;font-weight:bold" class="quotes">Ivoirienne</span>
+                                        <span style="color:green;font-weight:bold" class="quotes">Afrique</span>
+                                        <span style="color:white;font-weight:bold" class="quotes">Amérique</span>
+                                        <span style="color:yellow;font-weight:bold" class="quotes">Eurasie.</span>
+                                         <span style="color:yellow;font-weight:bold" class="quotes">Antarctique</span>
+
+
+                                    </h2> </div> </div> </div></span></h2>
                                     <!--
                                     <h2 class="animation animated-item-2">Des <span>Degustations</span></h2>
                                     <h2 class="animation animated-item-2">+20 Boissons et Produits de Bouche</h2>
                                         -->
+
                                     <br>
                                     <span class="content-nav">
 									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
@@ -79,10 +96,10 @@
                 </div>
                 <!--/.item-->
 
-                <div class="item">
+                <div class="item active col-lg-12 col-xs-12 col-md-12 col-sm-12">
                     <video id="video_background" preload="auto" autoplay loop="loop" muted="muted" controls>
                        <!-- <source src="videos/splash.webm" type="video/webm"> -->
-                        <source src="videos/splash.mp4" type="video/mp4">
+                        <source src="videos/splash0.mp4" type="video/mp4">
                       <!--  <source src="videos/splash.ogv" type="video/ogg"> -->
                         Video not supported
                     </video>
@@ -90,16 +107,29 @@
                     <div id="video_pattern"></div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-12 col-lg-12 col-xs-12">
                                 <div class="carousel-content centered">
 
-                                    <h2 class="animation animated-item-1">GAITE<span>JOIE</span></h2>
+                                    <h2 class="animation animated-item-1"><span>Une Célébration Culturelle</span></h2>
 
-                                    <h2 class="animation animated-item-2"></h2>
+                                    <h2 class="animation animated-item-2">
+                                        <span class="fadeInLeftBig" style="color:yellow;text-transform: none">
+                                            Le Grand rendez-vous de toutes les Brasséries  <div class="row">
+                            <div class="wow fadeInLeft" style="z-index: 9999;">
+                                <div class="headline-wrap">
+                                    <h2 class="headline animation animated-item-1" style="color:orange">
+
+                                        <span style="color:darkgray;font-weight:bold" class="quotes">Un Evenement</span>
+                                        <span style="color:green;font-weight:bold" class="quotes">Une Fete</span>
+                                        <span style="color:white;font-weight:bold" class="quotes">Une Joie</span>
+                                        <span style="color:yellow;font-weight:bold" class="quotes">Une Gaiete</span>
+                                        <span style="color:grey;font-weight:bold" class="quotes">Un Partage</span>
+
+                                    </h2> </div> </div> </div></span></h2>
 
                                     <br>
                                     <span class="content-nav">
-                                    <a href="#services-wrapper" class="animation animated-item-3">Go</a>
+                                    <a href="#services-wrapper" class="animation animated-item-2">Go</a>
                                 </span>
                                 </div>
                             </div>
@@ -511,43 +541,40 @@
                 <div class="inner-wrapper">
                     <div class="row">
                         <div class="container">
-                            <h2 style="color: #00bf73">
+                            <h2 style="color:darkorange">
                                Inscrivez-<span>Vous </span>
                             </h2>
 
-                            <div  class="row">
-
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-xs-6">
                                         <a href="{{route('inscriptionJeux')}}" class="btn btn-sq-lg btn-primary">
                                             <i class="fa fa-user fa-5x"></i><br/>
-                                          Incrivez-vous <br>au jeux concours
+                                           Incrivez-vous <br>au jeux concours
                                         </a>
                                 </div>
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-xs-6">
                                         <a href="{{route('inscriptionVisiteurs')}}" class="btn btn-sq-lg btn-success">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Comme Visiteurs</a>
 
                                 </div>
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-xs-6">
                                         <a href="{{route('inscriptionPresse')}}" class="btn btn-sq-lg btn-info">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Organe de Presse
                                         </a>
                                 </div>
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-xs-6">
                                         <a href="{{route('inscriptionPartenaires')}}" class="btn btn-sq-lg btn-warning">
                                             <i class="fa fa-user fa-5x"></i><br/>
                                             Incrivez-vous <br>Pour etre Partenaire
                                         </a>
-                                </div>
-
-                                <div class="col-lg-4">
-                                    <div class="fb-page" data-href="https://www.facebook.com/WeekEndDeLaBoisson/" data-tabs="timeline" data-width="500" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/WeekEndDeLaBoisson/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WeekEndDeLaBoisson/">Week-end de la boisson</a></blockquote></div>
 
                                 </div>
-                                </div>
 
+                                <div class="col-lg-4 col-xs-12">
+                                    <div class="fb-page" data-href="https://www.facebook.com/WeekEndDeLaBoisson/" data-tabs="timeline" data-width="500" data-height="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/WeekEndDeLaBoisson/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WeekEndDeLaBoisson/">Week-end de la boisson</a></blockquote></div>
+
+                                </div>
 
                                 </div>
                             </div>
