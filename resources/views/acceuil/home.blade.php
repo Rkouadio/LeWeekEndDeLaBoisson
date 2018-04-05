@@ -100,7 +100,7 @@
                   <!-- <video id="video_background" preload="auto" autoplay loop="loop" muted="muted" controls>
                       <!-- <source src="videos/splash.webm" type="video/webm"> -->
                      <!-- <source src="videos/splash0.mp4" type="video/mp4"> -->
-                      <!--  <source src="videos/splash.ogv" type="video/ogg"> -->
+                      <!--  <source src="videos/splash.ogv" type="video/ogg">
                         Video not supported
                   <!--  </video> -->
 
