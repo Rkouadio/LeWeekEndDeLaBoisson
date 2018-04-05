@@ -27,7 +27,7 @@
             </ol>
             -->
             <div class="carousel-inner">
-                <div class="item " style="background-image: url(images/slider/slide_web.jpg)">
+                <div class="item active " style="background-image: url(images/slider/slider1.jpg)">
                     <div class="container">
                         <div class="row">
 
@@ -35,7 +35,7 @@
                                 <div class="carousel-content centered">
                                     <h2 class="animation animated-item-1"> <span style="text-transform: none;color:yellow;font-weight: bold">Le Week End de La Boisson</span></h2>
                                     <h2 style="font-size: 40px" class="animation animated-item-2 ">
-                                        <span class="fadeInLeftBig" style="color:whitesmoke;text-transform: none;font-weight: bold">La Boisson au centre des réjouissances et des découvertes<div class="row">
+                                        <span class="fadeInLeftBig" style="color:#FF4500 ;text-transform: none;font-weight: bold">La Boisson au centre des réjouissances et des découvertes<div class="row">
                             <div class="wow fadeInLeft" style="z-index: 9999;">
                                 <div class="headline-wrap">
                                     <h2 class="headline animation animated-item-1" style="color:orange">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <!--/.item-->
-                <div class="item" style="background-image: url(images/slider/slide_web2.jpg)">
+                <div class="item" style="background-image: url(images/slider/slider2.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
@@ -95,17 +95,17 @@
                     </div>
                 </div>
                 <!--/.item-->
-
-                <div class="item active col-lg-12 col-xs-12 col-md-12 col-sm-12">
-                    <video id="video_background" preload="auto" autoplay loop="loop" muted="muted" controls>
-                       <!-- <source src="videos/splash.webm" type="video/webm"> -->
-                        <source src="videos/splash0.mp4" type="video/mp4">
+  <!-- ==== Video section  === -->
+               <!-- <div class="item  col-lg-12 col-xs-12 col-md-12 col-sm-12">
+                  <!-- <video id="video_background" preload="auto" autoplay loop="loop" muted="muted" controls>
+                      <!-- <source src="videos/splash.webm" type="video/webm"> -->
+                     <!-- <source src="videos/splash0.mp4" type="video/mp4"> -->
                       <!--  <source src="videos/splash.ogv" type="video/ogg"> -->
                         Video not supported
-                    </video>
+                  <!--  </video> -->
 
-                    <div id="video_pattern"></div>
-                    <div class="container">
+                  <!--  <div id="video_pattern"></div>
+                  <!-- <div class="container">
                         <div class="row">
                             <div class="col-sm-12 col-lg-12 col-xs-12">
                                 <div class="carousel-content centered">
@@ -134,8 +134,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
+              <!--  </div> -->
                 <!--/.item-->
             </div>
             <!--/.carousel-inner-->
@@ -494,7 +494,7 @@
                                     de valoriser les potentialités de la boisson sur le plan commercial et industriel</p>
 
                                     <p> Le Week-end de la Boisson- WEB, permettra de reunir la Population Ivoirienne,
-                                    la Dispora ivoirienne, les touristes, les Operateurs Economiques, le monde de la culture et du Showbiz  et
+                                    la Diaspora ivoirienne, les touristes, les Operateurs Economiques, le monde de la culture et du Showbiz  et
                                         les Arts.
                                     </p>
                                 </div>
@@ -502,7 +502,7 @@
                                     <h3>Communication autour de l'Evenement</h3>
                                     </br>
                                     <p> La reussite du <span>WEB 2018</span>, repose sur une communicatiuon de proximité, en vue d'interesser
-                                    chaque ivoirien(ne) & toute la diapora a cet evenement unique en son genre. car elle sera le lieu de rencontre
+                                    chaque ivoirien(ne) & toute la Diaspora a cet evenement unique en son genre. car elle sera le lieu de rencontre
                                         entre Consommateurs et Brasseries !
                                     </p>
 
