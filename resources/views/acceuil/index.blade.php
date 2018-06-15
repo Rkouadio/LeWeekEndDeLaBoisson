@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117196414-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-117196414-1');
+    </script>
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -18,7 +30,7 @@
     <link href="css/fontello/css/fontello.css" rel="stylesheet">
     <link href="css/jquery.bxslider.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/myStyle.css" rel="stylesheet">
     <link href="css/style_web.css" rel="stylesheet">
     <link href="css/media-query.css" rel="stylesheet">
 
@@ -59,20 +71,20 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a id="logo" class="navbar-brand" href="#"><img class="" src="images/logo_web.jpg"
+                            <a id="logo" class="navbar-brand" href="#main-slider"><img class="" src="images/logo_web.jpg"
                                                                                      alt=""></a>
                         </div>
                     </div>
                     <div id="menu" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-left">
-                            <li class="active home"><a href="#main-slider"> Acceuil</a></li>
+                           <!-- <li class="active home"><a href="#main-slider"> Acceuil</a></li> -->
                             <li class="about"><a href="#aboutus-wrapper">Le Web</a></li>
-                            <li class="service"><a href="#services-wrapper">Programme</a></li>
-                            <li class="portfolio"><a href="#portfolio-wrapper">Phototheque</a></li>
+                            <li class="service"><a href="#experiences-wrapper">Experiences</a></li>
+                            <li class="portfolio"><a href="#portfolio-wrapper">Partenaires</a></li>
                             <li class="team"><a href="#team-wrapper">Inscription</a></li>
-                            <li class="client"><a href="#client-wrapper">En détails</a></li>
+                            <li class="client"><a href="#client-wrapper">Programme</a></li>
                             <li class="contact"><a href="#contact-wrapper">Contact</a></li>
-                        </ul>
+                            <a id="to-top" href="#main-slider"><i class="fa fa-long-arrow-up"></i></a></li>
                     </div>
                 </div>
             </div>
@@ -91,16 +103,18 @@
                 <div class="col-xs-6">
                     <div class="social-shares">
                         <ul>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="{{url('https://www.facebook.com/WeekEndDeLaBoisson/')}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                             <li><a href="#"><i class="fa fa-skype"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xs-6">
                     <div class="copyright">
-                        <p>Copyright &copy; 2018 Le WEB/ Design by <a href="#">Bao-Technologies- Dev_Team</a>
+                        <p>Copyright &copy; 2018 Le WEB, By <a href="#" target="_blank" style="color : yellow">Afric Image.</a> Dev : <a href="{{url('http://www.bao-technologie.com/')}}" target="_blank">Bao-<span style="color: darkblue">Technologie</span></a>  </p>
+
                     </div>
                 </div>
             </div>
@@ -138,7 +152,6 @@
 <script src="js/jquery.nicescroll.min.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/themehippo.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="js/jquery.sticky-kit.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/kinetic.js"></script>

@@ -61,6 +61,12 @@
     color: #FFFFFF;
 }
 
+.service-box h3 {
+    text-transform : none;
+    font-size      : 18px;
+    padding        : 10px;
+}
+
 #team-wrapper:before {
     border-right-color : #face2f;
 }
@@ -129,11 +135,7 @@
 }
 
 #client {
-    background          : -webkit-linear-gradient(left, #face2f 0%, #face2f 100%), -webkit-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : -moz-linear-gradient(left, #face2f 0%, #face2f 100%), -moz-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : -o-linear-gradient(left, #face2f 0%, #face2f 100%), -o-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : -ms-linear-gradient(left, #face2f 0%, #face2f 100%), -ms-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : linear-gradient(left, #face2f 0%, #face2f 100%), linear-gradient(left, #face2f 0%, #face2f 100%); /* Chrome10+,Safari5.1+ */
+
 }
 
 /**

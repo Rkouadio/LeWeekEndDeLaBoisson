@@ -154,7 +154,7 @@
 
         <!-- Services Programmes
         ================================================== -->
-        <div id="services-wrapper">
+        <div id="experiences-wrapper">
             <div id="services">
                 <div class="inner-wrapper">
                     <div class="container">
@@ -174,7 +174,21 @@
                             </div>
                         @endif
                         <div class="row">
-                            <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-box col-md-6">
+                                <div class="lib-row lib-header">
+                                   <h3>Example library</h3>
+                                    <div class="lib-header-seperator"></div>
+                                </div>
+                                <div class="lib-row lib-desc">
+                                    Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="lib-img-show" src="images/slider/fete.jpg">
+                            </div>
+
+
+                           <!-- <div class="col-md-3 col-sm-6 col-xs-12">
 
                                 <div class="service-box service-fold">
                                     <i class="hippo-icon-diamond"></i>
@@ -182,10 +196,11 @@
                                     <h3>Exposition Vente</h3>
 
                                     <p>
-                                        Des stands a votre disposition, decouvrir les nouveaux produit de nos brasseries...
+                                        Des espaces a votre disposition, decouvrir les nouveaux produit de nos brasseries...
                                     </p>
                                 </div>
                             </div>
+
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="service-box service-fold">
                                     <i class="hippo-icon-lightbulb"></i>
@@ -197,6 +212,7 @@
                                     </p>
                                 </div>
                             </div>
+
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="service-box service-fold">
                                     <i class="hippo-icon-beaker"></i>
@@ -208,6 +224,7 @@
                                     </p>
                                 </div>
                             </div>
+
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="service-box service-fold">
                                     <i class="hippo-icon-paper-plane"></i>
@@ -217,8 +234,8 @@
                             <p>
                                 Concert avec des artistes de renom dans un concept d'ambiance bon vivre à l'ivoirienne.
                             </p>
-                        </div>
-                    </div>
+                                </div>
+                            </div> -->
                     <!--
                        <div class="col-md-3 col-sm-6 col-xs-12">
                            <div class="service-box service-fold">
@@ -274,7 +291,7 @@
 
         <!-- Portfolio GALERIE
         ================================================== -->
-        <div id="portfolio-wrapper">
+     <!--   <div id="portfolio-wrapper">
             <div id="portfolio">
                 <div class="inner-wrapper">
                     <div class="row">
@@ -305,159 +322,6 @@
                                             </li>
                                             @endforeach
 
-                                          <!--  <li class="portfolio-item">
-                                                <div>
-                                                    <img class="img-responsive" src="images/portfolio/2.png" alt="">
-
-                                                    <div class="portfolio-item-description">
-                                                        <div>
-                                                            <a data-linktype="modal" data-modalclass="portfolio-style"
-                                                               href="portfolio1.html"
-                                                               class="fa fa-check rounded"></a>
-
-                                                            <h3>consect adipisi elit</h3>
-
-                                                            <p class="project-tag">Design, Develop</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="portfolio-item">
-                                                <div>
-                                                    <img class="img-responsive" src="images/portfolio/3.png" alt="">
-
-                                                    <div class="portfolio-item-description">
-                                                        <div>
-                                                            <a data-linktype="modal" data-modalclass="portfolio-style"
-                                                               href="portfolio1.html"
-                                                               class="fa fa-cog rounded"></a>
-
-                                                            <h3>consect adipisi elit</h3>
-
-                                                            <p class="project-tag">Design, Develop</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="portfolio-item">
-                                                <div>
-                                                    <img class="img-responsive" src="images/portfolio/4.png" alt="">
-
-                                                    <div class="portfolio-item-description">
-                                                        <div>
-                                                            <a data-linktype="modal" data-modalclass="portfolio-style"
-                                                               href="portfolio1.html"
-                                                               class="fa fa-pencil rounded"></a>
-
-                                                            <h3>consect adipisi elit</h3>
-
-                                                            <p class="project-tag">Design, Develop</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="portfolio-item">
-                                                <div>
-                                                    <img class="img-responsive" src="images/portfolio/5.png" alt="">
-
-                                                    <div class="portfolio-item-description">
-                                                        <div>
-                                                            <a data-linktype="modal" data-modalclass="portfolio-style"
-                                                               href="portfolio1.html"
-                                                               class="fa fa-rocket rounded"></a>
-
-                                                            <h3>consect adipisi elit</h3>
-
-                                                            <p class="project-tag">Design, Develop</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="portfolio-item">
-                                                <div>
-                                                    <img class="img-responsive" src="images/portfolio/4.png" alt="">
-
-                                                    <div class="portfolio-item-description">
-                                                        <div>
-                                                            <a data-linktype="modal" data-modalclass="portfolio-style"
-                                                               href="portfolio1.html"
-                                                               class="fa fa fa-thumbs-o-up rounded"></a>
-
-                                                            <h3>consect adipisi elit</h3>
-
-                                                            <p class="project-tag">Design, Develop</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="portfolio-item">
-                                                <div>
-                                                    <img class="img-responsive" src="images/portfolio/3.png" alt="">
-
-                                                    <div class="portfolio-item-description">
-                                                        <div>
-                                                            <a data-linktype="modal" data-modalclass="portfolio-style"
-                                                               href="portfolio1.html"
-                                                               class="fa fa-info rounded"></a>
-
-                                                            <h3>consect adipisi elit</h3>
-
-                                                            <p class="project-tag">Design, Develop</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="portfolio-item">
-                                                <div>
-                                                    <img class="img-responsive" src="images/portfolio/2.png" alt="">
-
-                                                    <div class="portfolio-item-description">
-                                                        <div>
-                                                            <a data-linktype="modal" data-modalclass="portfolio-style"
-                                                               href="portfolio1.html"
-                                                               class="fa fa-wrench rounded"></a>
-
-                                                            <h3>consect adipisi elit</h3>
-
-                                                            <p class="project-tag">Design, Develop</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="portfolio-item">
-                                                <div>
-                                                    <img class="img-responsive" src="images/portfolio/1.png" alt="">
-
-                                                    <div class="portfolio-item-description">
-                                                        <div>
-                                                            <a data-linktype="modal" data-modalclass="portfolio-style"
-                                                               href="portfolio1.html"
-                                                               class="fa fa-magic rounded"></a>
-
-                                                            <h3>consect adipisi elit</h3>
-
-                                                            <p class="project-tag">Design, Develop</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="portfolio-item">
-                                                <div>
-                                                    <img class="img-responsive" src="images/portfolio/2.png" alt="">
-
-                                                    <div class="portfolio-item-description">
-                                                        <div>
-                                                            <a data-linktype="modal" data-modalclass="portfolio-style"
-                                                               href="portfolio1.html"
-                                                               class="fa fa-info rounded"></a>
-
-                                                            <h3>consect adipisi elit</h3>
-
-                                                            <p class="project-tag">Design, Develop</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li> -->
                                         </ul>
                                         <div class="clearfix"></div>
                                     </div>
@@ -471,8 +335,45 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--/#portfolio-->
+
+       <div id="portfolio-wrapper">
+           <div id="client">
+               <div class="inner-wrapper">
+                   <div class="row">
+                       <div class="container">
+                           <h2><span style="color :red"> PARTENAIRES</span></h2>
+
+                           <div class="row">
+                               <div id="clients">
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <a href="#"><img src="images/clients/1.png" alt=""></a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <a href="#"><img src="images/clients/2.png" alt=""></a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <a href="#"><img src="images/clients/3.png" alt=""></a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <a href="#"><img src="images/clients/4.png" alt=""></a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <a href="#"><img src="images/clients/5.png" alt=""></a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <a href="#"><img src="images/clients/6.png" alt=""></a>
+                                    </div>
+
+                                </div>
+
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
 
         <!-- About us APROPOS
         ================================================== -->
@@ -485,23 +386,24 @@
 
                             <div class="row contents">
                                 <div class="col-md-6">
-                                    <p> Le <span style="color: white">WEB, Week-end de la Boisson</span> est une idée original en vue de créer une plate forme d'echange,
-                                    de rejouissance et de decouvertes. Elle permettra de créer un cadre de rencontre entre les professionnels
+                                    <p> Le <span style="color: white">WEB, Week-end de la Boisson</span> est une idée originale en vue de créer une plate-forme d'échange,
+                                    de rejouissance et de decouverte. Il permettra de créer un cadre de rencontre entre les professionnels
                                         de la boisson.
                                     </p>
 
-                                    <p> Elle a pour objectif de faire connaitre les specifités des professionnels de la boisson. Aussi
+                                    <p> Il a pour objectif de faire connaitre les specificités des professionnels de la boisson. Aussi
                                     de valoriser les potentialités de la boisson sur le plan commercial et industriel</p>
 
-                                    <p> Le Week-end de la Boisson- WEB, permettra de reunir la Population Ivoirienne,
-                                    la Diaspora ivoirienne, les touristes, les Operateurs Economiques, le monde de la culture et du Showbiz  et
+                                    <p> Il sera le lieu de rassemblement de toutes les couches de la population Ivoirienne,
+                                    la Diaspora ivoirienne, les touristes, les Operateurs Economiques, le monde de la culture, du Showbiz  et
                                         les Arts.
                                     </p>
                                 </div>
+
                                 <div class="col-md-6">
                                     <h3>Communication autour de l'Evenement</h3>
                                     </br>
-                                    <p> La reussite du <span>WEB 2018</span>, repose sur une communicatiuon de proximité, en vue d'interesser
+                                    <p> La reussite du <span>WEB 2018</span>, repose sur une communication de proximité, en vue d'interesser
                                     chaque ivoirien(ne) & toute la Diaspora a cet evenement unique en son genre. car elle sera le lieu de rencontre
                                         entre Consommateurs et Brasseries !
                                     </p>
@@ -510,21 +412,23 @@
                                         <div class="skill-progress" data-skill="95%">AMBIANCE</div>
                                         <div class="skill-progress" data-skill="96%">GAITE</div>
                                         <div class="skill-progress" data-skill="97%">JOIE</div>
-                                        <div class="skill-progress" data-skill="98%">FETE</div>
+                                        <div class="skill-progress" data-skill="100%">FETE</div>
                                     </div>
                                     <div class="connect">
                                         <h3>Restez Connecter au WEB</h3>
 
                                         <div class="social-shares">
                                             <ul>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                                 <li><a href="{{url('https://www.facebook.com/WeekEndDeLaBoisson/')}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-skype"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -548,25 +452,25 @@
                                 <div class="col-lg-2 col-xs-6">
                                         <a href="{{route('inscriptionJeux')}}" class="btn btn-sq-lg btn-primary">
                                             <i class="fa fa-user fa-5x"></i><br/>
-                                           Incrivez-vous <br>au jeux concours
+                                            Incriptions<br>jeux concours
                                         </a>
                                 </div>
                                 <div class="col-lg-2 col-xs-6">
                                         <a href="{{route('inscriptionVisiteurs')}}" class="btn btn-sq-lg btn-success">
                                             <i class="fa fa-user fa-5x"></i><br/>
-                                            Incrivez-vous <br>Comme Visiteurs</a>
+                                            Incriptions <br> Visiteurs</a>
 
                                 </div>
                                 <div class="col-lg-2 col-xs-6">
                                         <a href="{{route('inscriptionPresse')}}" class="btn btn-sq-lg btn-info">
                                             <i class="fa fa-user fa-5x"></i><br/>
-                                            Incrivez-vous <br>Organe de Presse
+                                            Incriptions<br>Organe de Presse
                                         </a>
                                 </div>
                                 <div class="col-lg-2 col-xs-6">
                                         <a href="{{route('inscriptionPartenaires')}}" class="btn btn-sq-lg btn-warning">
                                             <i class="fa fa-user fa-5x"></i><br/>
-                                            Incrivez-vous <br>Pour etre Partenaire
+                                            Incriptions <br> Partenaire
                                         </a>
 
                                 </div>
@@ -576,11 +480,12 @@
 
                                 </div>
 
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+       <a id="to-top" href="#main-slider"><i class="fa fa-long-arrow-up"></i></a>
             </div>
         </div>
         <!--/#team-->
@@ -592,7 +497,8 @@
                 <div class="inner-wrapper">
                     <div class="row">
                         <div class="container">
-                            <h2>3 JOURS DE <span style="color :red"> GAIETE</span></h2>
+
+                            <h2> <span style="color :red">3 JOURS DE GAIETE</span></h2>
 
                             <div class="row">
                                <!-- <div id="clients">
@@ -635,13 +541,13 @@
 
                                 </div> -->
                                 <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4 fadeInRight">
-                                    <h3  style="color: #2E2D2D; text-transform: none ; font-weight: bold"><span style="color: Gray">Jour 1</span>- 13 Juillet 2018</h3>
-                                    <div  style="color: #B22222" class=""></br>
+                                    <h3  style="color: #2E2D2D; text-transform: none ; font-weight: bold"><span style="color: Gray">Jour 1</span>- 07 Septembre 2018</h3>
+                                    <div  style="color: #B22222; font-weight: bold" class=""></br>
                                         <p class="">
                                             <i class="fas fa-check-circle"></i> Allocution
                                         </p>
                                         <p class="">
-                                            <i class="fas fa-check-circle"></i> Ouverture Officielle avec un groupe artistique
+                                            <i class="fas fa-check-circle"></i> Ouverture officielle avec un groupe artistique
                                         </p>
                                         <p class="">
                                             <i class="fas fa-check-circle"></i> Visite des stands et découverte
@@ -653,10 +559,10 @@
                                             <i class="fas fa-check-circle"></i> Atéliers et dégustation
                                         </p>
                                         <p class="">
-                                            <i class="fas fa-check-circle"></i> Jeux + Concours + mixage Dj
+                                            <i class="fas fa-check-circle"></i> Jeux + Concours + Mixage Dj
                                         </p>
                                         <p class="">
-                                            <i class="fas fa-check-circle"></i> Mini concert
+                                            <i class="fas fa-check-circle"></i> Mini-concert : Speciale Reggae
                                         </p>
                                         <p class="">
                                             <i class="fas fa-check-circle"></i> Temps musical / Maquis Geant
@@ -664,31 +570,31 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4">
-                                    <h3 style="color: #2E2D2D; text-transform: none ; font-weight: bold"><span style="color: Gray">Jour 2</span>- 14 Juillet 2018</h3>
-                                    <div class="" style="color: #B22222"></br>
+                                    <h3 style="color: #2E2D2D; text-transform: none ; font-weight: bold"><span style="color: Gray">Jour 2</span>-  08 Septembre 2018</h3>
+                                    <div class="" style="color: #B22222; font-weight: bold"></br>
                                         <p class="">
-                                            <i class="fas fa-check"></i></i> Animations
+                                            <i class="fas fa-check-circle"></i></i> Animations
                                         </p>
                                         <p class="">
-                                            <i class="fas fa-check"></i> Visite des stands et découverte
+                                            <i class="fas fa-check-circle"></i> Visite des stands et découverte
                                         </p>
                                         <p class="">
-                                            <i class="fas fa-check"></i> Animation sponsors et partenaires
+                                            <i class="fas fa-check-circle"></i> Animation sponsors et partenaires
                                         </p>
                                         <p class="">
-                                            <i class="fas fa-check"></i> Jeux + Concours + mixage Dj
+                                            <i class="fas fa-check-circle"></i> Jeux + Concours + Mixage Dj
                                         </p>
                                         <p class="">
-                                            <i class="fas fa-check"></i>  Mini concert(artistes - humoristes -orchestre)
+                                            <i class="fas fa-check-circle"></i>  Mini-concert (artistes - humoristes) : Speciale Rumba
                                         </p>
 
                                         <p class="">
-                                            <i class="fas fa-check"></i> Temps musical / Maquis Geant / bal cloture
+                                            <i class="fas fa-check-circle"></i> Temps musical / Maquis Geant / Bal clôture
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-8 col-lg-4">
-                                    <h3  style="color: #2E2D2D;text-transform: none;font-weight: bold"> <span style="color: Gray">Jour 3</span>- 15 Juillet 2018</h3>
+                                    <h3  style="color: #2E2D2D;text-transform: none"> <span style="color: Gray">Jour 3</span>- 09 Septembre 2018</h3>
                                     <div style="color: #B22222; font-weight: bold" class=""></br>
                                         <p class="">
                                             <i class="fas fa-check-circle"></i> Animations
@@ -703,17 +609,17 @@
                                             <i class="fas fa-check-circle"></i> Dégustation
                                         </p>
                                         <p class="">
-                                            <i class="fas fa-check-circle"></i> Jeux + concours + mixage Dj
+                                            <i class="fas fa-check-circle"></i> Jeux + Concours + Mixage Dj
                                         </p>
                                         <p class="">
-                                            <i class="fas fa-check-circle"></i></i> mini-concert (artistes + humoristes + orchestre)
+                                            <i class="fas fa-check-circle"></i></i> Mini-concert : Speciale Zouglou
                                         </p>
                                         <p class="">
                                             <i class="fas fa-check-circle"></i></i> Animation sponsors et partenaires
                                         </p>
 
                                         <p class="">
-                                            <i class="fas fa-check-circle"></i> Temps musical / Maquis Geant / bal cloture
+                                            <i class="fas fa-check-circle"></i> Temps musical / Maquis geant / Bal clôture
                                         </p>
                                     </div>
                                 </div>
@@ -723,292 +629,6 @@
                 </div>
             </div>
         </div>
-        <!-- /#client -->
-<!--
-       <div id="blog-wrapper">
-            <div id="blog">
-                <div class="inner-wrapper">
-                    <div class="row">
-                        <div class="container">
-                            <h2>
-                                Check out our latest  <span>Blog</span>
-                            </h2>
-
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <ul class="blog-posts-list">
-                                        <li class="active">
-                  <span class="date">
-                    September 01, 2013
-                  </span>
-                                            <a href="#a" data-toggle="tab">
-                                                But I must explain to you how all this mistaken idea
-                                                of denouncing pleasure and praising pain was born and I will give.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 02, 2013
-                  </span>
-                                            <a href="#b" data-toggle="tab">
-                                                Secondo sed ac orci quis tortor imperdiet
-                                                venenatis. Duis elementum auctor accumsan.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#c" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#d" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#d" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#d" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#d" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#d" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#d" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#d" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#d" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#d" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                        <li>
-                  <span class="date">
-                    September 03, 2013
-                  </span>
-                                            <a href="#d" data-toggle="tab">
-                                                Thirdamuno, ipsum dolor sit amet, consectetur
-                                                adipiscing elit.
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <div class="blog-directions">
-                                            <span class="prev-items rounded">
-                                              <i class="fa fa-angle-left"> </i>
-                                            </span>
-                                            <span class="next-items rounded">
-                                              <i class="fa fa-angle-right">
-                                              </i>
-                                            </span>
-                                   </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="tab-content blog-post-descriptions">
-                                        <div class="tab-pane active has-thumbnail" id="a">
-                                            <div class="entry-title">
-                                                <div class="blog-header-wrapper">
-                                                    <div class="blog-date">
-                                                                <span class="blog-date-day">07 </span>
-                                                                        <span class="blog-date-other"> Nov, 2013 </span>
-                                                    </div>
-                                                    <div class="blog-title">
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                        tempor incididunt ut labore et dolore magna aliqua
-                                                    </div>
-                                                </div>
-                                                <div class="blog-entry-thumb">
-                                                    <img src="images/blog/blog.jpg" class="img-responsive" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="entry-content">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                                                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                                    mollit anim id est laborum.
-                                                </p>
-                                                <a class="readmore" data-linktype="modal" data-modalclass="blog-style" href="blog-single1.html">Read
-                                                    more <i class=" fa fa-arrow-circle-o-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="b">
-                                            <div class="entry-title">
-                                                <div class="blog-header-wrapper">
-                                                    <div class="blog-date">
-                        <span class="blog-date-day">
-                          07
-                        </span>
-                                                        <span class="blog-date-other">
-                          Nov, 2013
-                        </span>
-                                                    </div>
-                                                    <div class="blog-title">
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                        tempor incididunt ut labore et dolore magna aliqua
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="entry-content">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                                                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                                    mollit anim id est laborum.
-                                                </p>
-                                                <a class="readmore" data-linktype="modal" data-modalclass="blog-style" href="blog-single1.html">Read
-                                                    more <i class=" fa fa-arrow-circle-o-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane has-thumbnail" id="c">
-                                            <div class="entry-title">
-                                                <div class="blog-header-wrapper">
-                                                    <div class="blog-date">
-                        <span class="blog-date-day">
-                          07
-                        </span>
-                                                        <span class="blog-date-other">
-                          Nov, 2013
-                        </span>
-                                                    </div>
-                                                    <div class="blog-title">
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                        tempor incididunt ut labore et dolore magna aliqua
-                                                    </div>
-                                                </div>
-                                                <div class="blog-entry-thumb">
-                                                    <img src="images/blog/blog.jpg" class="img-responsive" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="entry-content">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                                                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                                    mollit anim id est laborum.
-                                                </p>
-                                                <a class="readmore" data-linktype="modal" data-modalclass="blog-style" href="blog-single1.html">Read
-                                                    more <i class=" fa fa-arrow-circle-o-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="d">
-                                            <div class="entry-title">
-                                                <div class="blog-header-wrapper">
-                                                    <div class="blog-date">
-                        <span class="blog-date-day">
-                          07
-                        </span>
-                                                        <span class="blog-date-other">
-                          Nov, 2013
-                        </span>
-                                                    </div>
-                                                    <div class="blog-title">
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                        tempor incididunt ut labore et dolore magna aliqua
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="entry-content">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                                                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                                    mollit anim id est laborum.
-                                                </p>
-                                                <a class="readmore" data-linktype="modal" data-modalclass="blog-style" href="blog-single1.html">Read
-                                                    more <i class=" fa fa-arrow-circle-o-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="clearfix">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!--/#blog-->
 
         <!-- Contact
         ================================================== -->
@@ -1017,7 +637,7 @@
                 <div class="inner-wrapper">
                     <div class="row">
                         <div class="container">
-                            <h2 style="text-transform: none"><span >Laissez-nous un </span> Message </h2>
+                            <h2 style="text-transform: none"><span >Laissez-nous un  Message </span></h2>
 
                             <div class="row">
                                 <div class="col-md-12">
@@ -1033,10 +653,10 @@
                                             <li class="second">
                                                 <p><i class="fa fa-phone fa-2"></i> +225 22417844-07582431</p>
 
-                                                <p><i class="fa fa-envelope fa-2"></i> <span style="color: orangered">infos@weekendelaboisson.com</span>
+                                                <p><i class="fa fa-envelope fa-2"></i><span style="color: orangered">infos@weekendelaboisson.com</span> <br> <i class="fa fa-envelope fa-2"></i><span style="color: orangered">weekenddelaboisson@gmail.com</span>
                                             </li>
                                             <li class="third">
-                                                <p><i class="fa fa-clock-o fa-2"></i> 13-14 & 15 Juillet 2018</p>
+                                                <p><i class="fa fa-clock-o fa-2"></i>  07, 08 & 09 Septembre 2018</p>
                                                 <p>10h - 00h</p>
                                             </li>
                                         </ul>
@@ -1047,13 +667,13 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="message-box">
-                                        <h3>Envoyé un Message</h3>
+                                        {{ csrf_field() }}
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                            <h3>Envoyé un Message</h3>
 
                                         <form  action="{{route('messageUser')}}" method="post">
-                                            {{ csrf_field() }}
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <input type="text" name='nom' class="form-control" placeholder="Name">
+                                                    <input type="text" name='nom' class="form-control" placeholder="Nom">
                                                 </div>
                                                 <div class="col-md-6">
                                                     <input type="email" name='mail' class="form-control" placeholder="Email">
@@ -1068,7 +688,7 @@
                                             <div  class="row">
                                                 <div class="col-md-12">
                                                     <input type="submit" class="readmore send-button"
-                                                           value="Send Message">
+                                                           value="Envoyez">
                                                 </div>
                                             </div>
                                         </form>
@@ -1082,7 +702,5 @@
         </div>
         <!--/#contact-wrapper-->
     </div>
-
-
 
 @endsection

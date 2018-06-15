@@ -35,7 +35,7 @@ body {
 h1, h2, h3, h4, h5 {
     font-family    : "Lato", sans-serif;
     color          : #fff;
-text-transform : uppercase;
+    text-transform : uppercase;
     margin         : 0;
     padding        : 0;
 }
@@ -459,7 +459,7 @@ a, a:hover {
 }
 
 #video_pattern {
-  /*  background-image : url(../images/pattern.png);*/
+    /*  background-image : url(../images/pattern.png);*/
     position         : fixed;
     -ms-filter       : "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     filter           : alpha(opacity=80);
@@ -910,7 +910,7 @@ a#to-top {
 
 .service-box {
     height              : 300px;
-    padding             : 20px;
+    padding             : 0px;
     margin              : 0px;
 
     background          : -webkit-linear-gradient(right, #D93921 0%, #D93921 100%), -webkit-linear-gradient(right, #D93921 0%, #D93921 100%);
@@ -927,10 +927,10 @@ a#to-top {
 }
 
 .service-box h3 {
-    text-transform : none;
-    font-size      : 18px;
-    padding        : 20px;
-}
+     text-transform : none;
+     font-size      : 18px;
+     padding        : 10px;
+ }
 
 .service-box:hover {
     background          : -webkit-linear-gradient(right, #35362c 0%, #35362c 100%), -webkit-linear-gradient(right, #35362c 0%, #35362c 100%);
@@ -946,6 +946,50 @@ a#to-top {
     font-size   : 3em;
     line-height : 100px;
 }
+
+
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
 
 /* Portfolio
 --------------------------------------------------*/
@@ -1292,6 +1336,7 @@ a#to-top {
     filter             : alpha(opacity=60);
     opacity            : 0.6;
 }
+
 
 /* Blog
 --------------------------------------------------*/
