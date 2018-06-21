@@ -58,36 +58,67 @@
 <div class="">
     <!-- Navbar body-inner-wrapper MENU
     ================================================== -->
+
     <div id="menu-wrapper" class="navbar-wrapper">
         <div class="inner-container">
-            <div id="navigation-bar" class="navbar navbar-inverse navbar-static-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <div>
-                            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                    data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a id="logo" class="navbar-brand" href="#main-slider"><img class="" src="images/logo_web.jpg"
-                                                                                     alt=""></a>
-                        </div>
+            <div class="row">
+                <!-- <nav class="navbar navbar-default">
+                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Works</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li>
+                                <a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse1" aria-expanded="false" aria-controls="nav-collapse1">Categories</a>
+                            </li>
+                        </ul>
+                        <ul class="collapse nav navbar-nav nav-collapse" id="nav-collapse1">
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Graphic design</a></li>
+                            <li><a href="#">Print</a></li>
+                            <li><a href="#">Motion</a></li>
+                            <li><a href="#">Mobile apps</a></li>
+                        </ul>
                     </div>
-                    <div id="menu" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-left">
-                           <!-- <li class="active home"><a href="#main-slider"> Acceuil</a></li> -->
-                            <li class="about"><a href="#aboutus-wrapper">Le Web</a></li>
-                            <li class="service"><a href="#experiences-wrapper">Experiences</a></li>
-                            <li class="portfolio"><a href="#portfolio-wrapper">Partenaires</a></li>
-                            <li class="team"><a href="#team-wrapper">Inscription</a></li>
-                            <li class="client"><a href="#client-wrapper">Programme</a></li>
-                            <li class="contact"><a href="#contact-wrapper">Contact</a></li>
+
+                </nav> -->
+            </div>
+            <div class="row">
+                <div id="navigation-bar" class="navbar navbar-inverse navbar-static-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <div>
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                        data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a id="logo" class="navbar-brand" href="#main-slider"><img class="" src="images/logo_web.jpg"
+                                                                                           alt=""></a>
+                            </div>
+                        </div>
+                        <div id="menu" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-left">
+                                <!-- <li class="active home"><a href="#main-slider"> Acceuil</a></li> -->
+                                <li class="about"><a href="#aboutus-wrapper">Le Web</a></li>
+                                <li class="service"><a href="#experiences-wrapper">Experiences</a></li>
+                                <li class="portfolio"><a href="#portfolio-wrapper">Partenaires</a></li>
+                                <li class="team"><a href="#team-wrapper">Inscription</a></li>
+                                <li class="client"><a href="#client-wrapper">Programme</a></li>
+                                <li class="contact"><a href="#contact-wrapper">Contact</a></li>
+                            </ul>
                             <a id="to-top" href="#main-slider"><i class="fa fa-long-arrow-up"></i></a></li>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 

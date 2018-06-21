@@ -27,36 +27,37 @@
             </ol>
             -->
             <div class="carousel-inner">
-                <div class="item active " style="background-image: url(images/slider/slider1.jpg)">
+                <div class="item active " style="background-image: url(images/slider/mainSlide1.png)">
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-sm-12"s>
+                            <div class="col-sm-12">
                                 <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1"> <span style="text-transform: none;color:yellow;font-weight: bold">Le Week End de La Boisson</span></h2>
+                                   <!-- <h2 class="animation animated-item-1"> <span style="text-transform: none;color:yellow;font-weight: bold">Le Week End de La Boisson</span></h2> -->
                                     <h2 style="font-size: 40px" class="animation animated-item-2 ">
-                                        <span class="fadeInLeftBig" style="color:#FF4500 ;text-transform: none;font-weight: bold">La Boisson au centre des réjouissances et des découvertes<div class="row">
-                            <div class="wow fadeInLeft" style="z-index: 9999;">
-                                <div class="headline-wrap">
-                                    <h2 class="headline animation animated-item-1" style="color:orange">
+                                        <!--  <span class="fadeInLeftBig" style="color:#FF4500 ;text-transform: none;font-weight: bold">La Boisson au centre des réjouissances et des découvertes --><div class="row">
+                              <div class="wow fadeInLeft" style="z-index: 9999;">
+                                  <div class="headline-wrap">
+                                      <h2 class="headline animation animated-item-1" style="color:orange">
 
-                                        <span style="color:darkorange;font-weight:bold" class="quotes">Un Evenement</span>
-                                        <span style="color:green;font-weight:bold" class="quotes">Une Fete</span>
-                                        <span style="color:white;font-weight:bold" class="quotes">Une Joie</span>
-                                        <span style="color:yellow;font-weight:bold" class="quotes">Une Gaiete</span>
-                                        <span style="color:grey;font-weight:bold" class="quotes">Un Partage</span>
+                                          <span style="color:darkorange;font-weight:bold" class="quotes">Un Evenement</span>
+                                          <span style="color:green;font-weight:bold" class="quotes">Une Fete</span>
+                                          <span style="color:white;font-weight:bold" class="quotes">Une Joie</span>
+                                          <span style="color:yellow;font-weight:bold" class="quotes">Une Gaiete</span>
+                                          <span style="color:grey;font-weight:bold" class="quotes">Un Partage</span>
 
-                                    </h2> </div> </div> </div></span></h2>
-                                    <br>
-                                    <span class="content-nav">
-									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
-								</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--/.item-->
+                                      </h2>
+                                  </div> </div> </div></span></h2>
+                                      <br>
+                                      <span class="content-nav">
+                                      <a href="#services-wrapper" class="animation animated-item-3">Go</a>
+                                  </span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!--/.item-->
                 <div class="item" style="background-image: url(images/slider/slider2.jpg)">
                     <div class="container">
                         <div class="row">
@@ -348,24 +349,44 @@
                            <div class="row">
                                <div id="clients">
                                     <div class="col-md-2 col-sm-3 col-xs-4">
-                                        <a href="#"><img src="images/clients/1.png" alt=""></a>
+                                        <a href="#"><img src="images/clients/logo_africimage.png" alt=""></a>
                                     </div>
                                     <div class="col-md-2 col-sm-3 col-xs-4">
-                                        <a href="#"><img src="images/clients/2.png" alt=""></a>
+                                        <a href="#"><img src="images/clients/logo_bao.png" alt=""></a>
                                     </div>
                                     <div class="col-md-2 col-sm-3 col-xs-4">
-                                        <a href="#"><img src="images/clients/3.png" alt=""></a>
+                                        <a href="#"><img src="images/clients/logo_goafrica.png" alt=""></a>
                                     </div>
                                     <div class="col-md-2 col-sm-3 col-xs-4">
-                                        <a href="#"><img src="images/clients/4.png" alt=""></a>
+                                        <a href="#"><img src="images/clients/logo_ivoirepub.png" alt=""></a>
                                     </div>
                                     <div class="col-md-2 col-sm-3 col-xs-4">
-                                        <a href="#"><img src="images/clients/5.png" alt=""></a>
+                                        <a href="#"><img src="images/clients/logo_nostalgie.png" alt=""></a>
                                     </div>
-                                    <div class="col-md-2 col-sm-3 col-xs-4">
-                                        <a href="#"><img src="images/clients/6.png" alt=""></a>
-                                    </div>
+                                   <div class="col-md-2 col-sm-3 col-xs-4">
+                                       <a href="#"><img src="images/clients/logo_bao.png" alt=""></a>
+                                   </div>
 
+                                   <!-- A sup  -->
+
+                                   <div class="col-md-2 col-sm-3 col-xs-4">
+                                       <a href="#"><img src="images/clients/logo_africimage.png" alt=""></a>
+                                   </div>
+                                   <div class="col-md-2 col-sm-3 col-xs-4">
+                                       <a href="#"><img src="images/clients/logo_bao.png" alt=""></a>
+                                   </div>
+                                   <div class="col-md-2 col-sm-3 col-xs-4">
+                                       <a href="#"><img src="images/clients/logo_goafrica.png" alt=""></a>
+                                   </div>
+                                   <div class="col-md-2 col-sm-3 col-xs-4">
+                                       <a href="#"><img src="images/clients/logo_ivoirepub.png" alt=""></a>
+                                   </div>
+                                   <div class="col-md-2 col-sm-3 col-xs-4">
+                                       <a href="#"><img src="images/clients/logo_nostalgie.png" alt=""></a>
+                                   </div>
+                                   <div class="col-md-2 col-sm-3 col-xs-4">
+                                       <a href="#"><img src="images/clients/logo_bao.png" alt=""></a>
+                                   </div>s
                                 </div>
 
                            </div>
